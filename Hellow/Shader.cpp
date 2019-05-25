@@ -2,6 +2,9 @@
 #include<iostream>
 #include <fstream>
 #include<sstream>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
+
 using namespace std;  //在std命名空间之下
 
 Shader::Shader(const char* vertexPath, const char* fragmentPath)
@@ -32,12 +35,40 @@ Shader::Shader(const char* vertexPath, const char* fragmentPath)
 		fragmentstring = fragmentsstream.str();
 
 		vertexsource = vertexstring.c_str();      //通过c_str()这个方法把vertexstring转化成vertexsource
-		fragmentsouce = fragmentstring.c_str();
+		fragmentsource = fragmentstring.c_str();
+
+		unsigned int vertex, fragment;    //先宣告两个无号正整数，用来承载GPU返还给我的shader番号（ID号）
+		
+		vertex = glCreateShader(GL_VERTEX_SHADER);     //  番号！ 不认得glCreateShader,头文件包含宣告
+		                                                //我要造一个vertexshader,并把番号存给vertex这个变量
+		glShaderSource(vertex, 1, &vertexsource,NULL);   //把源代码读进去，参数：先给shader番号，再给移位进来的字串个数，再给字符串数组的位置，字符串数组的长度
+		glCompileShader(vertex);                          //编译这个着色器，变成二进制
 
 
-		//输出文件
-		cout << vertexsource << endl;
-		cout << fragmentsouce << endl;
+		fragment = glCreateShader(GL_FRAGMENT_SHADER);        //建一个空瓶子（着色器）
+		glShaderSource(fragment, 1, &fragmentsource, NULL); //往瓶里装东西装 //瓶子：是叫fragment的着色器。
+															                 //要装的东西：装进1个字符串，字符串在&fragmentsource，无需长度
+		glCompileShader(fragment); 
+
+		//再把两个链接
+		ID = glCreateProgram();
+		glAttachShader(ID, vertex);     //把着色器粘到着色器程序上面。
+		glAttachShader(ID, fragment);
+
+		glLinkProgram(ID);                             //链接
+
+		glDeleteShader(vertex);
+		glDeleteShader(fragment);
+
+
+
+ 
+
+
+
+	   //输出文件
+		/*cout << vertexsource << endl;
+		cout << fragmentsource << endl;*/
 	}
 	catch (const std::exception& ex)  // （catch)收下这个东西命名ex
 	{
@@ -48,6 +79,11 @@ Shader::Shader(const char* vertexPath, const char* fragmentPath)
 
 
 
+}
+
+void Shader::use()
+{
+	glUseProgram(ID);
 }
 
 

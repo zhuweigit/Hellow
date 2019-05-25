@@ -3,41 +3,41 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+
  using namespace std;
  void processInput(GLFWwindow *window);
  //const char* vertexShaderSource;    //代表是字符串源代码？？？？？？？
  //const char* fragmnetShaderSource;    //代表是字符串源代码？？？？？？？
 
- const char *vertexShaderSource = "#version 330 core\n"
-	 "layout (location = 6) in vec3 aPos;\n"
-	 "layout (location = 7) in vec3 aColor;\n"
-	 "out vec4 VertexColor;\n"
-	 
-	// "out vec4 VertexColor;    \n"
-	//  "out vec4 VertexColor;\n"
-	 "void main()\n"
-	 "{\n" 
-	 "   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
- 	 // "  VertexColor = vec4(0 ,0 , 0, 1.0);\n" 
-	 "  VertexColor = vec4(aColor.x,aColor.y,aColor.z,10f);\n"
-	 "}\0";
- const char *fragmentShaderSource = "#version 330 core\n"
-   "out vec4 FragColor;\n"
-	"in vec4 VertexColor;      \n" 
-	 //"int vec4 vertexColor;\n"
-	 "uniform vec4 ourColor;  \n"      //只写这个uniform是空的 没写任何数据
-	 "void main()\n"
-	 "{\n"
-	//"   FragColor = vec4(1.0f,0.5f,0.2f,1.0f);\n"
-	// "  FragColor = VertexColor ;\n"    
-	 "  FragColor = VertexColor ;\n"
-	 "}\n\0";
+ //const char *vertexShaderSource = "#version 330 core\n"
+	// "layout (location = 6) in vec3 aPos;\n"
+	// "layout (location = 7) in vec3 aColor;\n"
+	// "out vec4 VertexColor;\n"
+	// 
+	//// "out vec4 VertexColor;    \n"
+	////  "out vec4 VertexColor;\n"
+	// "void main()\n"
+	// "{\n" 
+	// "   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
+ //	 // "  VertexColor = vec4(0 ,0 , 0, 1.0);\n" 
+	// "  VertexColor = vec4(aColor.x,aColor.y,aColor.z,10f);\n"
+	// "}\0";
+ //const char *fragmentShaderSource = "#version 330 core\n"
+ //  "out vec4 FragColor;\n"
+	//"in vec4 VertexColor;      \n" 
+	// //"int vec4 vertexColor;\n"
+	// "uniform vec4 ourColor;  \n"      //只写这个uniform是空的 没写任何数据
+	// "void main()\n"
+	// "{\n"
+	////"   FragColor = vec4(1.0f,0.5f,0.2f,1.0f);\n"
+	//// "  FragColor = VertexColor ;\n"    
+	// "  FragColor = VertexColor ;\n"
+	// "}\n\0";
 
 
 int main()         //main函数，在这个函数中我们将会实例化GLFW窗口
 {
 
-	Shader* testShader = new Shader("vertexSource.txt", "fragmentSource.txt");   //读这两个文件档（文档）
 
 
 
@@ -67,7 +67,12 @@ int main()         //main函数，在这个函数中我们将会实例化GLFW窗口
 		return -1;
 	}
     glViewport(0, 0, 600, 600);  //开个视口    //调用建立视口函数
-	//需要明文规定告诉opengl要剔除一个面，缺省是两个面都显示
+	
+	Shader* myShader = new Shader("vertexSource.txt", "fragmentSource.txt");   //读这两个文件档（文档）
+	
+																				 
+																				 
+																				 //需要明文规定告诉opengl要剔除一个面，缺省是两个面都显示
   //  glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);   //框线模式
 	
 	// glEnable(GL_CULL_FACE);
@@ -103,24 +108,24 @@ int main()         //main函数，在这个函数中我们将会实例化GLFW窗口
 	glGenBuffers(1, &EBO);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
-	//编译顶点着色器
-	unsigned int vertexShader;
-	vertexShader = glCreateShader(GL_VERTEX_SHADER);//创建一个着色器对象， 参数是（具体要求描述）创一个什么样的shader
-	glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);    //1个字符串源代码（给出地址）塞进shader
-	glCompileShader(vertexShader);                                 //把shader编译成为二进制
+	////编译顶点着色器
+	//unsigned int vertexShader;
+	//vertexShader = glCreateShader(GL_VERTEX_SHADER);//创建一个着色器对象， 参数是（具体要求描述）创一个什么样的shader
+	//glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);    //1个字符串源代码（给出地址）塞进shader
+	//glCompileShader(vertexShader);                                 //把shader编译成为二进制
 
-		//编译（片段）着色器
-	unsigned int fragmentShader;           //空的片段着色器
-	fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);//创建一个着色器对象， 参数是（具体要求描述）创一个什么样的shader
-	glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);    //1个字符串源代码（给出地址）塞进shader
-	glCompileShader(fragmentShader);                                 //把shader编译成为二进制
+	//	//编译（片段）着色器
+	//unsigned int fragmentShader;           //空的片段着色器
+	//fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);//创建一个着色器对象， 参数是（具体要求描述）创一个什么样的shader
+	//glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);    //1个字符串源代码（给出地址）塞进shader
+	//glCompileShader(fragmentShader);                                 //把shader编译成为二进制
 
-	//着色器程序
-	unsigned int shaderProgram;
-	shaderProgram = glCreateProgram();  //glCreateProgram方法造一个程序，并返给我一个程序对象的ID
-	glAttachShader(shaderProgram, vertexShader);    //粘上去
-	glAttachShader(shaderProgram, fragmentShader);  //粘上去
-	glLinkProgram(shaderProgram);                    //链接
+	////着色器程序
+	//unsigned int shaderProgram;
+	//shaderProgram = glCreateProgram();  //glCreateProgram方法造一个程序，并返给我一个程序对象的ID
+	//glAttachShader(shaderProgram, vertexShader);    //粘上去
+	//glAttachShader(shaderProgram, fragmentShader);  //粘上去
+	//glLinkProgram(shaderProgram);                    //链接
 	
 	// 1. 设置顶点属性指针
 //	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);//第0个开始绘制，总共3笔资料，每笔数据形式float,不用变成+-1之间，每笔资料的间隔此处是3个float,第一笔资料的偏移量是多少（此处塞进只有顶点所以0）
@@ -158,13 +163,15 @@ int main()         //main函数，在这个函数中我们将会实例化GLFW窗口
 	    glBindVertexArray(VAO);   //当前画的线
 		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 
-		float timeValue = glfwGetTime();   //得到当前的时间存在timeValu里面
-		float greenValue = (sin(timeValue) / 2.0f) + 0.5f;
-		int vertexColorLoation = glGetUniformLocation(shaderProgram, "ourColor");   //get哪个program,其里面的一个叫ourColor的值
+		//float timeValue = glfwGetTime();   //得到当前的时间存在timeValu里面
+		//float greenValue = (sin(timeValue) / 2.0f) + 0.5f;
+		//int vertexColorLoation = glGetUniformLocation(shaderProgram, "ourColor");   //get哪个program,其里面的一个叫ourColor的值
  
-     	glUseProgram(shaderProgram);  //就可以画了   激活着色器程序
-			
-		glUniform4f(vertexColorLoation, 0.0, greenValue, 0.0f, 1.0f);
+  //   	glUseProgram(shaderProgram);  //就可以画了   激活着色器程序
+		//	
+		//glUniform4f(vertexColorLoation, 0.0, greenValue, 0.0f, 1.0f);
+
+		myShader->use();
 
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 		  

@@ -10,6 +10,8 @@ public:
 	 string vertexstring;    //
 	 string fragmentstring;
 	const char* vertexsource;    //加个const是为了让后面的这个只能写入一次，也就是说写入之后就不能再改变
-	const char* fragmentsouce;
+	const char* fragmentsource;
+	unsigned int ID;             //shader program   ID
+	void use();
 };
 
