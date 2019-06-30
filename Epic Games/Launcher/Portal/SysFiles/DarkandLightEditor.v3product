@@ -1,0 +1,47 @@
+﻿{
+	"Id": "darkandlight",
+	"Priority": 45,
+	"AnalyticsId": "darkandlight",
+	"DisplayName": "Dark and Light",
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "darkandlight",
+	"Categories": "Create",
+	"EulaExpression": "(darkandlight && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.54799, 0.00006, 0.00001",
+	"PressedPrimaryColor": "0.44787, 0.00006, 0.00001",
+	"HoveredPrimaryColor": "0.7372, 0.00011, 0.00002",
+	"Homepage": "/create/darkandlight",
+	"Pages": [
+		{
+			"Id": "create.darkandlight",
+			"PartialUrl": "/darkandlight",
+			"SourceUrls" : [				
+				{
+					"SourceUrl": "ui_DarkandLightEditorV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},				
+				{
+					"SourceUrl": "ui_DarkandLightEditorV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "DarkAndLightEditor",
+			"GroupId": "Editor",
+			"OfferId": "74447ad08cc34e2e8ca18a2651abacae",
+			"ItemId": "91168365595f4a9aa88b96fc13b66f02",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

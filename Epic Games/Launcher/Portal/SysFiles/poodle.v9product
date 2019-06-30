@@ -1,0 +1,40 @@
+﻿{
+	"Id": "poodle",
+	"Priority": 31,
+	"AnalyticsId": "poodle",
+	"DisplayName": "Twin Motion",
+	"DisplayName_ko": "",
+	"CatalogNamespace": "poodle",
+	"EulaExpression": "Twin",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"LibraryImage": "ShadowComplex.png",
+	"LibraryLogo": "ShadowComplexLogo.png",
+	"PrimaryColor": "#DD2367",
+	"PressedPrimaryColor": "#DD2367",
+	"HoveredPrimaryColor": "#DD2367",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_9_0"
+		}
+	},
+	"Homepage": "/twinmotion",
+	"Pages": [
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "Poodle",
+			"GroupId": "Game",
+			"OfferId": "bc579ea411fa447899337569ebc8624c",
+			"ItemId": "7b443be3671842eeb181cc61facfe301",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,NoKoreanIdVerification,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

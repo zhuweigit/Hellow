@@ -1,0 +1,156 @@
+﻿{
+   "Type" : "Box",
+   "Orientation" : "Horizontal",
+   "AutoSize" : "false",
+   "RequiresBindingSource" : false,
+   "Children" : [
+      {
+         "Type" : "Panel",
+         "HAlign" : "Left",
+         "AutoSize" : "true",
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.1",
+         "Width" : 1
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "RequiresBindingSource" : false,
+         "AutoSize" : "false",
+         "Children" : [
+            {
+               "Type" : "Box",
+               "Orientation" : "Horizontal",
+               "Children" : [
+                  {
+                     "Type" : "NavBarLink",
+                     "Name" : "community",
+                     "Text" : "Unreal Engine",
+                     "Orientation" : "Horizontal",
+                     "Text_translate" : "true",
+                     "Url" : "/ue/community",
+                     "Text_fr" : "Unreal Engine",
+                     "Text_it" : "Unreal Engine",
+                     "Text_de" : "Unreal Engine",
+                     "Text_es" : "Unreal Engine",
+                     "Text_es-MX" : "Unreal Engine",
+                     "Text_ru" : "Unreal Engine",
+                     "Text_pl" : "Unreal Engine",
+                     "Text_ar" : "Unreal Engine",
+                     "Text_ko" : "언리얼 엔진",
+                     "Text_ja" : "Unreal Engine",
+                     "Text_zh-CN" : "虚幻引擎",
+                     "Text_pt-BR" : "Unreal Engine",
+                     "Text_tr" : "Unreal Engine"
+                  },
+                  {
+                     "Type" : "NavBarLink",
+                     "Name" : "learn",
+                     "Text" : "Learn",
+                     "Orientation" : "Horizontal",
+                     "Text_translate" : "true",
+                     "Url" : "/ue/learn",
+                     "Text_fr" : "Apprendre",
+                     "Text_it" : "Impara",
+                     "Text_de" : "Erlernen",
+                     "Text_es" : "Más información",
+                     "Text_es-MX" : "Aprender",
+                     "Text_ar" : "تعلُم",
+                     "Text_ko" : "학습",
+                     "Text_pt-BR" : "Aprender",
+                     "Text_ru" : "Обучиться",
+                     "Text_pl" : "Nauka",
+                     "Text_ja" : "ラーニング",
+                     "Text_zh-CN" : "学习",
+                     "Text_tr" : "Bilgi Edin"
+                  },
+                  {
+                     "Type" : "NavBarLink",
+                     "Name" : "marketplace",
+                     "Text" : "Marketplace",
+                     "Orientation" : "Horizontal",
+                     "Text_translate" : "true",
+                     "Url" : "/ue/marketplace",
+                     "Text_fr" : "Marché",
+                     "Text_it" : "Marketplace",
+                     "Text_de" : "Marktplatz",
+                     "Text_es" : "Bazar",
+                     "Text_es-MX" : "Marketplace",
+                     "Text_ru" : "Магазин",
+                     "Text_pl" : "Rynek",
+                     "Text_ar" : "السوق",
+                     "Text_ko" : "마켓플레이스",
+                     "Text_ja" : "マーケットプレイス",
+                     "Text_zh-CN" : "虚幻商城",
+                     "Text_pt-BR" : "Loja",
+                     "Text_tr" : "Mağaza"
+                  },
+                  {
+                     "Type" : "Overlay",
+                     "Children" : [
+                        {
+                           "Type" : "NavBarLink",
+                           "Name" : "library",
+                           "Text" : "Library",
+                           "Orientation" : "Horizontal",
+                           "Text_translate" : "true",
+                           "Url" : "/ue/library",
+                           "Text_fr" : "Bibliothèque",
+                           "Text_it" : "Biblioteca",
+                           "Text_de" : "Bibliothek",
+                           "Text_es" : "Biblioteca",
+                           "Text_es-MX" : "Biblioteca",
+                           "Text_ar" : "مكتبة",
+                           "Text_ko" : "라이브러리",
+                           "Text_pt-BR" : "Biblioteca",
+                           "Text_ru" : "Библиотека",
+                           "Text_pl" : "Biblioteka",
+                           "Text_ja" : "ライブラリ",
+                           "Text_zh-CN" : "库",
+                           "Text_tr" : "Kütüphane"
+                        },
+                        {
+                           "Type" : "NotificationBadge",
+                           "SubType" : "EngineLibrary",
+                           "Style" : "Tiny",
+                           "Visibility" : "SelfHitTestInvisible",
+                           "HAlign" : "Right",
+                           "VAlign" : "Center",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 0,
+                              "Right" : 5,
+                              "Bottom" : 0
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "QuickEngineLaunch",
+                     "AutoSize" : "false",
+                     "HAlign" : "Right",
+                     "VAlign" : "Center",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 5,
+                        "Right" : 45,
+                        "Bottom" : 5
+                     }
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Fill",
+               "VAlign" : "Bottom",
+               "AutoSize" : "true",
+               "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+               "Height" : 1
+            },
+            {
+               "Type" : "UIView",
+               "AutoSize" : "false"
+            }
+         ]
+      }
+   ]
+}

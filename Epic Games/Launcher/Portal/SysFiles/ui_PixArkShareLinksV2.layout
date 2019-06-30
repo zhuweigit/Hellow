@@ -1,0 +1,45 @@
+{
+	"Type": "Box",
+	"Orientation": "Horizontal",
+	"Children":
+	[
+		{
+            "Type": "BasicTile",			
+            "Padding": { "Left": 0, "Top": 0, "Right": 10, "Bottom": 0 },
+            "MinWidth": 19, "MaxWidth": 19, "MinHeight": 16, "MaxHeight": 16,
+            "LoadSilently": "true",
+            "HasShadow": false,
+			"Images": [ { "Image": "twitter_icon.png", "ColorAndOpacity": "1, 1, 1", "Stretch": "None" } ],
+            "OnNavigateUrl": "https://twitter.com/officialpixark"
+        },
+		{
+            "Type": "BasicTile",			
+            "Padding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+            "MinWidth": 8, "MaxWidth": 8, "MinHeight": 15, "MaxHeight": 15,
+            "LoadSilently": "true",
+            "HasShadow": false,
+			"Images": [ { "Image": "facebook_icon.png", "ColorAndOpacity": "1, 1, 1", "Stretch": "None" } ],
+            "OnNavigateUrl": "https://www.facebook.com/officialsnailgamesusa/"
+        },
+		{
+            "Type": "BasicTile",
+			"MetaData": "ut-link: Reddit",
+            "Padding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+            "MinWidth": 19, "MaxWidth": 19, "MinHeight": 15, "MaxHeight": 15,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "Reddit_icon.png", "ColorAndOpacity": "1, 1, 1", "Stretch": "None" } ],
+            "OnNavigateUrl": "https://www.reddit.com/r/PlayPixArk/"
+        },
+		{
+            "Type": "BasicTile",
+			"MetaData": "ut-link: YouTube",
+            "Padding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+            "MinWidth": 37, "MaxWidth": 37, "MinHeight": 15, "MaxHeight": 15,
+            "LoadSilently": "true",
+            "HasShadow": false,
+			"Images": [ { "Image": "youtube_icon.png", "ColorAndOpacity": "1, 1, 1", "Stretch": "None" } ],
+            "OnNavigateUrl": "https://www.youtube.com/channel/UCvJt3cav_RJGK3J0Ot9tF2g"
+        }
+	]
+}

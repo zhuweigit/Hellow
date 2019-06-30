@@ -1,0 +1,53 @@
+﻿{
+	"Id": "min",
+	"Priority": 32,
+	"AnalyticsId": "min",
+	"DisplayName": "Hades",
+	"CatalogNamespace": "min",
+	"EulaExpression": "(egstore)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_11_0"
+		}
+	},
+	"Homepage": "/min",
+	"Pages": [
+		{
+			"Id": "min",
+			"PartialUrl": "/min",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_minOffline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ]
+				},
+				{
+					"SourceUrl": "ui_min.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [],
+	"Apps": [
+		{
+			"Name": "Min",
+			"GroupId": "Game",
+			"OfferId": "2ab170b614384b408fc168e45a1fb935",
+			"ItemId": "fb39bac8278a4126989f0fe12e7353af",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "MinNightly",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "5e12a24365634025bcfe8fcb6f87d940",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": []
+}

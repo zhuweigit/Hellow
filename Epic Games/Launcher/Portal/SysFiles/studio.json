@@ -1,0 +1,42 @@
+﻿{
+   "external_packages" : [
+      {
+         "id" : "3dsmax_exporter",
+         "name_translate" : "true",
+         "name" : "Exporter Plugins",
+         "action_translate" : "true",
+         "action" : "Get",
+         "url" : "{unrealengine}/{locale}/studio/downloads",
+         "thumbnailUrl" : "ExporterThumbnail.png",
+         "categories" : [
+            "unrealstudio"
+         ],
+         "name_fr" : "Plug-ins d'exportation",
+         "action_fr" : "Obtenir",
+         "name_de" : "Export-Plugins",
+         "action_de" : "Hol dir",
+         "name_es" : "Complementos del exportador",
+         "action_es" : "Obtener",
+         "name_es-MX" : "Complementos de exportador",
+         "action_es-MX" : "Conseguir",
+         "name_ru" : "Надстройки экспорта",
+         "action_ru" : "Получить",
+         "name_ko" : "익스포터 플러그인",
+         "action_ko" : "받기",
+         "name_it" : "Plugin esportatore",
+         "action_it" : "Ottieni",
+         "name_pl" : "Wtyczki eksportera",
+         "action_pl" : "Zdobądź",
+         "name_ar" : "إضافات المصدر",
+         "action_ar" : "احصل على",
+         "name_ja" : "エクスポータープラグイン",
+         "action_ja" : "入手",
+         "name_zh-CN" : "导出程序插件",
+         "action_zh-CN" : "获取",
+         "name_pt-BR" : "Plugins de Exporter",
+         "action_pt-BR" : "Comprar",
+         "name_tr" : "Dışarı Aktarma Eklentileri",
+         "action_tr" : "Al"
+      }
+   ]
+}

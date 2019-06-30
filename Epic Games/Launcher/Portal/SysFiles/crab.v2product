@@ -1,0 +1,60 @@
+﻿{
+	"Id": "crab",
+	"Priority": 33,
+	"AnalyticsId": "crab",
+	"DisplayName": "Satisfactory",
+	"CatalogNamespace": "crab",
+	"EulaExpression": "(crab && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_11_0"
+		}
+	},
+	"Homepage": "/crab",
+	"Pages": [
+		{
+			"Id": "crab",
+			"PartialUrl": "/crab",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_crabOffline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ]
+				},
+				{
+					"SourceUrl": "ui_crab.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [],
+	"Apps": [
+		{
+			"Name": "Crab",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "943b05b3293043daa5918278a186763f",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "CrabNightly",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "295aba9fb83f4921bfce2f33392b92f6",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "CrabStage",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "8d8cb900a6de45629f8cd465a725f2e4",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": []
+}

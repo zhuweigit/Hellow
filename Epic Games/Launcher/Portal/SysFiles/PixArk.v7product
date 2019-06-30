@@ -1,0 +1,48 @@
+﻿{
+	"Id": "pixark",
+	"Priority": 35,
+	"AnalyticsId": "pixark",
+	"DisplayName": "PixARK",
+	"ShortDisplayName": "Bus",
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "pixark",
+	"Categories": "Create",
+	"EulaExpression": "(pixark && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"LibraryImage": "ark.png",
+	"LibraryLogo": "arkLogo.png",
+	"PrimaryColor": "0.03288, 0.19046, 0.7519",
+	"PressedPrimaryColor": "0.02899, 0.16044, 0.62534",
+	"HoveredPrimaryColor": "0.03703, 0.21576, 0.85917",
+	"Homepage": "/pixark",
+	"Pages": [
+		{
+			"Id": "pixark",
+			"PartialUrl": "/pixark",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_PixArkV2_Offline.layout",
+					"Conditions": [ 
+						"![BINDING_SOURCE]"
+					] 
+				},		
+				{
+					"SourceUrl": "ui_PixArkV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [],
+	"Apps": [
+		{
+			"Name": "PixArk",
+			"GroupId": "Editor",
+			"OfferId": "1f218730f7ab425fa436404799fa224f",
+			"ItemId": "9490dd48752d408aad3108677c3b4158",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": []
+}

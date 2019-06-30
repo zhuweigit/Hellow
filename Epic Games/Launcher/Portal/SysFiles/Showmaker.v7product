@@ -1,0 +1,48 @@
+﻿{
+	"Id": "showmaker",
+	"Priority": 35,
+	"AnalyticsId": "showmaker",
+	"DisplayName": "showmaker",
+	"ShortDisplayName": "Bus",
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "showmaker",
+	"Categories": "Create",
+	"EulaExpression": "(showmaker && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"LibraryImage": "ark.png",
+	"LibraryLogo": "arkLogo.png",
+	"PrimaryColor": "0.03288, 0.19046, 0.7519",
+	"PressedPrimaryColor": "0.02899, 0.16044, 0.62534",
+	"HoveredPrimaryColor": "0.03703, 0.21576, 0.85917",
+	"Homepage": "/showmaker",
+	"Pages": [
+		{
+			"Id": "showmaker",
+			"PartialUrl": "/showmaker",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_showmakerV2_Offline.layout",
+					"Conditions": [ 
+						"![BINDING_SOURCE]"
+					] 
+				},		
+				{
+					"SourceUrl": "ui_showmakerV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [],
+	"Apps": [
+		{
+			"Name": "showmaker",
+			"GroupId": "Editor",
+			"OfferId": "7178958ecc57448b88812b2a22cb228b",
+			"ItemId": "4df854e1c928454db0c902254d55074b",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": []
+}

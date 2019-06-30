@@ -1,0 +1,46 @@
+﻿{
+	"Id": "wren",
+	"Priority": 33,
+	"AnalyticsId": "wren",
+	"DisplayName": "Ashen",
+	"CatalogNamespace": "wren",
+	"EulaExpression": "(egstore)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_11_0"
+		}
+	},
+	"Homepage": "/wren",
+	"Pages": [
+		{
+			"Id": "wren",
+			"PartialUrl": "/wren",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_wrenOffline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ]
+				},
+				{
+					"SourceUrl": "ui_wren.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [],
+	"Apps": [
+		{
+			"Name": "Wren",
+			"GroupId": "Game",
+			"OfferId": "32a37ec072474cf4a621d0ce28505f36",
+			"ItemId": "babd819da5f540c59eb188a25d4beabb",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": []
+}

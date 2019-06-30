@@ -1,0 +1,454 @@
+﻿{
+   "Type" : "ScrollBox",
+   "AutoSize" : "false",
+   "Children" : [
+      {
+         "Type" : "Overlay",
+         "Children" : [
+            {
+               "Type" : "BasicTile",
+               "HasShadow" : "false",
+               "Height" : 300,
+               "Images" : [
+                  {
+                     "Image" : ":OfferId/NewFeatured"
+                  }
+               ],
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "BasicTile",
+               "HasShadow" : "false",
+               "Height" : 150,
+               "VAlign" : "Bottom",
+               "Images" : [
+                  {
+                     "Image" : "GradientUp.png",
+                     "ColorAndOpacity" : "0, 0, 0, 0.75",
+                     "Stretch" : "Fill"
+                  }
+               ],
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "HAlign" : "Left",
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 60,
+                  "Top" : 20,
+                  "Right" : 10,
+                  "Bottom" : 20
+               },
+               "Children" : [
+                  {
+                     "Type" : "Panel",
+                     "Text" : [
+                        {
+                           "Binding" : ":OfferId/Title",
+                           "TextStyle" : "inverted-extralarge-title",
+                           "LineHeightScalar" : 1.2
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Panel",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Text" : [
+                        {
+                           "Binding" : ":OfferId",
+                           "TextStyle" : "inverted-extralarge-strong",
+                           "WrapAt" : 500,
+                           "LineHeightScalar" : 1.2,
+                           "Text_translate" : "true",
+                           "Text" : "By {Author} | {ModifiedDate}",
+                           "Text_ko" : "저자: {Author} | {ModifiedDate}",
+                           "Text_ja" : "製作：{Author} | {ModifiedDate}",
+                           "Text_zh-CN" : "作者{Author} | {ModifiedDate}",
+                           "Text_fr" : "Par {Author} | {ModifiedDate}",
+                           "Text_es-MX" : "Por {Author} | {ModifiedDate}",
+                           "Text_de" : "Von {Author} | {ModifiedDate}",
+                           "Text_it" : "Di {Author} | {ModifiedDate}",
+                           "Text_ru" : "Производство: {Author} | {ModifiedDate}",
+                           "Text_es" : "Por {Author} | {ModifiedDate}",
+                           "Text_pl" : "Autor: {Author} | {ModifiedDate}",
+                           "Text_pt-BR" : "Por {Author} | {ModifiedDate}",
+                           "Text_ar" : "بواسطة {Author} | {ModifiedDate}",
+                           "Text_tr" : "Yapan: {Author} | {ModifiedDate}"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "Type" : "ActionButton",
+               "MinWidth" : 342,
+               "MinHeight" : 102,
+               "HAlign" : "Right",
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 10,
+                  "Bottom" : 0
+               },
+               "OfferUriId" : ":OfferId"
+            },
+            {
+               "Type" : "Link",
+               "HAlign" : "Left",
+               "VAlign" : "Top",
+               "Padding" : {
+                  "Left" : 35,
+                  "Top" : 20,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Image" : {
+                  "Image" : "arrow_left.png",
+                  "ColorAndOpacity" : "UseForeground"
+               },
+               "Text" : {
+                  "Text_translate" : "true",
+                  "Text" : "Back",
+                  "TextStyle" : "inverted-h4",
+                  "Margin" : {
+                     "Left" : 10,
+                     "Top" : 0,
+                     "Right" : 10,
+                     "Bottom" : 0
+                  },
+                  "Text_ko" : "뒤로",
+                  "Text_ja" : "戻る",
+                  "Text_zh-CN" : "返回",
+                  "Text_fr" : "Retour",
+                  "Text_es-MX" : "Atrás",
+                  "Text_de" : "Zurück",
+                  "Text_it" : "Indietro",
+                  "Text_ru" : "Назад",
+                  "Text_es" : "Volver",
+                  "Text_pl" : "Wróć",
+                  "Text_pt-BR" : "Voltar",
+                  "Text_ar" : "العودة",
+                  "Text_tr" : "Geri"
+               },
+               "OnNavigateUrl" : "/ut/marketplace"
+            }
+         ]
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "HAlign" : "Center",
+         "MaxWidth" : 1400,
+         "Children" : [
+            {
+               "Type" : "ResponsiveGrid",
+               "TotalColumns" : 12,
+               "ColumnGutter" : 5,
+               "MinWidth" : 1400,
+               "Padding" : {
+                  "Left" : 60,
+                  "Top" : 20,
+                  "Right" : 60,
+                  "Bottom" : 40
+               },
+               "Children" : [
+                  {
+                     "Type" : "Box",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 12
+                        }
+                     ],
+                     "Orientation" : "Vertical",
+                     "Children" : [
+                        {
+                           "Type" : "Panel",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 20,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "Text" : [
+                              {
+                                 "Text" : "Description",
+                                 "Text_translate" : true,
+                                 "TextStyle" : "inverted-h4",
+                                 "AutoWrap" : "true",
+                                 "LineHeightScalar" : 1.2,
+                                 "Text_ko" : "설명",
+                                 "Text_ja" : "説明",
+                                 "Text_zh-CN" : "描述",
+                                 "Text_zh-Hans-CN" : "描述",
+                                 "Text_fr" : "Description",
+                                 "Text_es-MX" : "Descripción",
+                                 "Text_de" : "Beschreibung",
+                                 "Text_it" : "Descrizione",
+                                 "Text_ru" : "Описание",
+                                 "Text_es" : "Descripción",
+                                 "Text_pl" : "Opis",
+                                 "Text_pt-BR" : "Descrição",
+                                 "Text_ar" : "الوصف",
+                                 "Text_tr" : "Açıklama"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Panel",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 20,
+                              "Right" : 0,
+                              "Bottom" : 30
+                           },
+                           "Text" : [
+                              {
+                                 "Binding" : ":OfferId/LongDescription",
+                                 "TextStyle" : "inverted-body",
+                                 "AutoWrap" : "true",
+                                 "LineHeightScalar" : 1.2
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "BasicCarousel",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 800,
+                           "Span" : 0
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 12
+                        }
+                     ],
+                     "HAlign" : "Center",
+                     "MinHeight" : 400,
+                     "MaxHeight" : 400,
+                     "MinWidth" : 708,
+                     "MaxWidth" : 708,
+                     "AutoScroll" : 13,
+                     "AutoScrollDirection" : "Left",
+                     "Binding" : ":OfferId",
+                     "Items" : {
+                        "Includes" : [
+                           "Screenshot"
+                        ]
+                     },
+                     "HasShadow" : "false",
+                     "Images" : [
+                        {
+                           "Image" : "Url"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "BasicCarousel",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 900,
+                           "Span" : 0
+                        },
+                        {
+                           "LayoutSize" : 800,
+                           "Span" : 12
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 0
+                        }
+                     ],
+                     "HAlign" : "Center",
+                     "MinHeight" : 450,
+                     "MaxHeight" : 450,
+                     "MinWidth" : 800,
+                     "MaxWidth" : 800,
+                     "AutoScroll" : 13,
+                     "AutoScrollDirection" : "Left",
+                     "Binding" : ":OfferId",
+                     "Items" : {
+                        "Includes" : [
+                           "Screenshot"
+                        ]
+                     },
+                     "HasShadow" : "false",
+                     "Images" : [
+                        {
+                           "Image" : "Url"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "BasicCarousel",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 950,
+                           "Span" : 0
+                        },
+                        {
+                           "LayoutSize" : 900,
+                           "Span" : 12
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 0
+                        }
+                     ],
+                     "HAlign" : "Center",
+                     "MinHeight" : 500,
+                     "MaxHeight" : 500,
+                     "MinWidth" : 889,
+                     "MaxWidth" : 889,
+                     "AutoScroll" : 13,
+                     "AutoScrollDirection" : "Left",
+                     "Binding" : ":OfferId",
+                     "Items" : {
+                        "Includes" : [
+                           "Screenshot"
+                        ]
+                     },
+                     "HasShadow" : "false",
+                     "Images" : [
+                        {
+                           "Image" : "Url"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "BasicCarousel",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 1000,
+                           "Span" : 0
+                        },
+                        {
+                           "LayoutSize" : 950,
+                           "Span" : 12
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 0
+                        }
+                     ],
+                     "HAlign" : "Center",
+                     "MinHeight" : 550,
+                     "MaxHeight" : 550,
+                     "MinWidth" : 978,
+                     "MaxWidth" : 978,
+                     "AutoScroll" : 13,
+                     "AutoScrollDirection" : "Left",
+                     "Binding" : ":OfferId",
+                     "Items" : {
+                        "Includes" : [
+                           "Screenshot"
+                        ]
+                     },
+                     "HasShadow" : "false",
+                     "Images" : [
+                        {
+                           "Image" : "Url"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "BasicCarousel",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 1200,
+                           "Span" : 0
+                        },
+                        {
+                           "LayoutSize" : 1000,
+                           "Span" : 12
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 0
+                        }
+                     ],
+                     "HAlign" : "Center",
+                     "MinHeight" : 600,
+                     "MaxHeight" : 600,
+                     "MinWidth" : 1167,
+                     "MaxWidth" : 1167,
+                     "AutoScroll" : 13,
+                     "AutoScrollDirection" : "Left",
+                     "Binding" : ":OfferId",
+                     "Items" : {
+                        "Includes" : [
+                           "Screenshot"
+                        ]
+                     },
+                     "HasShadow" : "false",
+                     "Images" : [
+                        {
+                           "Image" : "Url"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "BasicCarousel",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 1200,
+                           "Span" : 12
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 0
+                        }
+                     ],
+                     "HAlign" : "Center",
+                     "MinHeight" : 650,
+                     "MaxHeight" : 650,
+                     "MinWidth" : 1367,
+                     "MaxWidth" : 1367,
+                     "AutoScroll" : 13,
+                     "AutoScrollDirection" : "Left",
+                     "Binding" : ":OfferId",
+                     "Items" : {
+                        "Includes" : [
+                           "Screenshot"
+                        ]
+                     },
+                     "HasShadow" : "false",
+                     "Images" : [
+                        {
+                           "Image" : "Url"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,31 @@
+﻿{
+	"Id": "home",
+	"Priority": 0,
+	"AnalyticsId": "hp",
+	"DisplayName": "Home",
+	"PrimaryColor": "0xff0078f2",
+	"PressedPrimaryColor": "0xff0078f2",
+	"HoveredPrimaryColor": "0xff0066da",
+	"ShowInGameLibrary": false,
+	"Homepage": "/home",
+	"Pages": [
+		{
+			"Id": "home",
+			"PartialUrl": "/home",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_Home.layout"
+				}
+			]
+		},
+		{
+			"Id": "home.news",
+			"PartialUrl": "/news",
+			"SourceUrls": [
+				{
+					"SourceUrl": "https://app.epicgames-gamedev.ol.epicgames.net/diesel/en-US/home"
+				}
+			]
+		}
+	]
+}

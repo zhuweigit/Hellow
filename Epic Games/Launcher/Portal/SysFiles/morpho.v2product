@@ -1,0 +1,46 @@
+﻿{
+	"Id": "morpho",
+	"Priority": 32,
+	"AnalyticsId": "morpho",
+	"DisplayName": "HN: Hide and Seek",
+	"CatalogNamespace": "morpho",
+	"EulaExpression": "(egstore)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_11_0"
+		}
+	},
+	"Homepage": "/morpho",
+	"Pages": [
+		{
+			"Id": "morpho",
+			"PartialUrl": "/morpho",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_morphoOffline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ]
+				},
+				{
+					"SourceUrl": "ui_morpho.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [],
+	"Apps": [
+		{
+			"Name": "Morpho",
+			"GroupId": "Game",
+			"OfferId": "9b25216887da4b80af40769e6910cd20",
+			"ItemId": "365a9de6e47d42ab9183808941ed69e1",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": []
+}

@@ -1,0 +1,103 @@
+﻿{
+   "Type" : "Box",
+   "Orientation" : "Horizontal",
+   "AutoSize" : "false",
+   "RequiresBindingSource" : false,
+   "Children" : [
+      {
+         "Type" : "Panel",
+         "HAlign" : "Left",
+         "AutoSize" : "true",
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.1",
+         "Width" : 1
+      },
+      {
+         "Type" : "ScrollBox",
+         "RequiresBindingSource" : false,
+         "AutoSize" : "false",
+         "Children" : [
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "MinWidth" : 1400,
+               "MaxWidth" : 1400,
+               "HAlign" : "Center",
+               "Children" : [
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Horizontal",
+                     "Padding" : {
+                        "Left" : 30,
+                        "Top" : 30,
+                        "Right" : 30,
+                        "Bottom" : 20
+                     },
+                     "Children" : [
+                        {
+                           "Type" : "Panel",
+                           "Text" : [
+                              {
+                                 "Text_translate" : "true",
+                                 "Text" : "YOUR GAMES",
+                                 "TextStyle" : "inverted-h4",
+                                 "HAlign" : "Left",
+                                 "VAlign" : "Top",
+                                 "WrapAt" : 400,
+                                 "Margin" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "Text_fr" : "VOS JEUX",
+                                 "Text_it" : "I TUOI GIOCHI",
+                                 "Text_de" : "DEINE SPIELE",
+                                 "Text_es" : "TUS JUEGOS",
+                                 "Text_es-MX" : "TUS JUEGOS",
+                                 "Text_ru" : "ВАШИ ИГРЫ",
+                                 "Text_pl" : "TWOJE GRY",
+                                 "Text_ar" : "ألعابك",
+                                 "Text_ko" : "고객님의 게임",
+                                 "Text_ja" : "ゲーム",
+                                 "Text_zh-CN" : "你的游戏",
+                                 "Text_pt-BR" : "SEUS JOGOS",
+                                 "Text_tr" : "OYUNLARIN"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Panel",
+                           "HAlign" : "Fill",
+                           "AutoSize" : false,
+                           "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+                           "Height" : 1,
+                           "VAlign" : "Bottom",
+                           "Padding" : {
+                              "Left" : 30,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 8
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "GameLibrary",
+                     "AutoSize" : "true",
+                     "Padding" : {
+                        "Left" : 30,
+                        "Top" : 0,
+                        "Right" : 30,
+                        "Bottom" : 30
+                     }
+                  },
+                  {
+                     "Type" : "UIView",
+                     "AutoSize" : "false"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

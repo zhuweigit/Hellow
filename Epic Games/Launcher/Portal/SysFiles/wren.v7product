@@ -1,0 +1,50 @@
+﻿{
+	"Id": "wren",
+	"Priority": 50,
+	"AnalyticsId": "wren",
+	"DisplayName": "Wren",
+	"CatalogNamespace": "wren",
+	"EulaExpression": "(wren && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"LibraryImage": "extinction.png",
+	"LibraryLogo": "extinctionLogo.png",
+	"PrimaryColor": "0xff0078f2",
+	"PressedPrimaryColor": "0xff0078f2",
+	"HoveredPrimaryColor": "0xff50a7ff",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_11_0"
+		}
+	},
+	"Homepage": "/wren",
+	"Pages": [
+		{
+			"Id": "wren",
+			"PartialUrl": "/wren",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_wrenOffline.layout",
+					"Conditions": [
+						"![BINDING_SOURCE]"
+					]
+				},
+				{
+					"SourceUrl": "ui_wren.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [],
+	"Apps": [
+		{
+			"Name": "Wren",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "25dcc8aa6b174704a7ebd614706b703b",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": []
+}

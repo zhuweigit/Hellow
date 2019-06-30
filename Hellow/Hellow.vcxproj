@@ -70,19 +70,19 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\给VS2017配的库\glew-1.11.0\include;D:\给VS2017配的库\glad,GLFW,KHR\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\给VS2017配的库\glew-1.11.0\include;D:\给VS2017配的库\glm-0.9.8.0\glm;D:\给VS2017配的库\glad,GLFW,KHR\include;$(IncludePath)</IncludePath>
     <LibraryPath>D:\给VS2017配的库\glew-1.11.0\lib\Release\Win32;D:\给VS2017配的库\glad,GLFW,KHR\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>D:\给VS2017配的库\glew-1.11.0\include;D:\给VS2017配的库\glad,GLFW,KHR\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\给VS2017配的库\glew-1.11.0\include;D:\给VS2017配的库\glm-0.9.8.0\glm;D:\给VS2017配的库\glad,GLFW,KHR\include;$(IncludePath)</IncludePath>
     <LibraryPath>D:\给VS2017配的库\glew-1.11.0\lib\Release\Win32;D:\给VS2017配的库\glad,GLFW,KHR\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\给VS2017配的库\glew-1.11.0\include;D:\给VS2017配的库\glad,GLFW,KHR\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\给VS2017配的库\glew-1.11.0\include;D:\给VS2017配的库\glm-0.9.8.0\glm;D:\给VS2017配的库\glad,GLFW,KHR\include;$(IncludePath)</IncludePath>
     <LibraryPath>D:\给VS2017配的库\glew-1.11.0\lib\Release\Win32;D:\给VS2017配的库\glad,GLFW,KHR\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>D:\给VS2017配的库\glew-1.11.0\include;D:\给VS2017配的库\glad,GLFW,KHR\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\给VS2017配的库\glew-1.11.0\include;D:\给VS2017配的库\glm-0.9.8.0\glm;D:\给VS2017配的库\glad,GLFW,KHR\include;$(IncludePath)</IncludePath>
     <LibraryPath>D:\给VS2017配的库\glew-1.11.0\lib\Release\Win32;D:\给VS2017配的库\glad,GLFW,KHR\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -142,16 +142,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cammera.cpp" />
     <ClCompile Include="D:\给VS2017配的库\glad,GLFW,KHR\src\glad.c" />
+    <ClCompile Include="LightDirection.cpp" />
+    <ClCompile Include="LightPoint.cpp" />
+    <ClCompile Include="LightSpot.cpp" />
+    <ClCompile Include="Material.cpp" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cammera.h" />
+    <ClInclude Include="LightDirection.h" />
+    <ClInclude Include="LightPoint.h" />
+    <ClInclude Include="LightSpot.h" />
+    <ClInclude Include="Material.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="fragmentSource.txt" />
-    <Text Include="vertexSource.txt" />
+    <Text Include="fragmentSource.frag" />
+    <Text Include="vertexSource.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="awesomeface.png" />
+    <Image Include="container.jpg" />
+    <Image Include="container2.png" />
+    <Image Include="container2_specular.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,50 @@
+﻿{
+	"Id": "crab",
+	"Priority": 50,
+	"AnalyticsId": "crab",
+	"DisplayName": "Satisfactory",
+	"CatalogNamespace": "crab",
+	"EulaExpression": "(crab && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"LibraryImage": "extinction.png",
+	"LibraryLogo": "extinctionLogo.png",
+	"PrimaryColor": "0xff0078f2",
+	"PressedPrimaryColor": "0xff0078f2",
+	"HoveredPrimaryColor": "0xff50a7ff",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_11_0"
+		}
+	},
+	"Homepage": "/crab",
+	"Pages": [
+		{
+			"Id": "crab",
+			"PartialUrl": "/crab",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_crabOffline.layout",
+					"Conditions": [
+						"![BINDING_SOURCE]"
+					]
+				},
+				{
+					"SourceUrl": "ui_crab.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [],
+	"Apps": [
+		{
+			"Name": "Crab",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "943b05b3293043daa5918278a186763f",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": []
+}

@@ -1,0 +1,76 @@
+﻿{
+	"Id": "seal",
+	"Priority": 31,
+	"AnalyticsId": "seal",
+	"DisplayName": "Seal",
+	"CatalogNamespace": "seal",
+	"EulaExpression": "(seal && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_11_0"
+		}
+	},
+	"Homepage": "/seal",
+	"Pages": [
+		{
+			"Id": "seal",
+			"PartialUrl": "/seal",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_sealOffline.layout",
+					"Conditions": [
+						"![BINDING_SOURCE]"
+					]
+				},
+				{
+					"SourceUrl": "ui_seal.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [],
+	"Apps": [
+		{
+			"Name": "Seal0",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "ab922997373749c296ee584725da1e79",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "Seal1",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "89a725fcb2a84bc58ef947de33a73c74",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "Seal2",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "bae55792b0154a48b67be697818cbfc7",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "Seal4",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "43bb058813cc467e9759c981dbf2358c",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "Seal5",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "6d235cfa58984b01b41f2bbf2b86d921",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": []
+}

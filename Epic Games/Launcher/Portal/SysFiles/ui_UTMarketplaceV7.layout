@@ -1,0 +1,573 @@
+﻿{
+   "Type" : "ScrollBox",
+   "AutoSize" : "false",
+   "Children" : [
+      {
+         "Type" : "ResponsiveGrid",
+         "TotalColumns" : 12,
+         "ColumnGutter" : 0,
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 60
+         },
+         "Children" : [
+            {
+               "Type" : "BasicTile",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 4
+                  }
+               ],
+               "MaxHeight" : 400,
+               "MinHeight" : 400,
+               "Binding" : "fe0f7b4e85fd4903823b24d16b80d88d",
+               "HasShadow" : "false",
+               "Images" : [
+                  {
+                     "Image" : "Featured"
+                  }
+               ],
+               "OnNavigateUrl" : "/ut/marketplace/{Id}",
+               "Text" : [
+                  {
+                     "Text" : "Title",
+                     "TextStyle" : "inverted-h3",
+                     "Margin" : {
+                        "Left" : 20,
+                        "Top" : 10,
+                        "Right" : 0,
+                        "Bottom" : 20
+                     }
+                  },
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "By {Author}",
+                     "TextStyle" : "inverted-extrasmall-body",
+                     "Margin" : {
+                        "Left" : 20,
+                        "Top" : 40,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "Text_ko" : "제작: {Author}",
+                     "Text_ja" : "製作：{Author}",
+                     "Text_zh-CN" : "作者{Author}",
+                     "Text_fr" : "Par {Author}",
+                     "Text_es-MX" : "Por {Author}",
+                     "Text_de" : "Von {Author}",
+                     "Text_it" : "Di {Author}",
+                     "Text_ru" : "Производство: {Author}",
+                     "Text_es" : "Por {Author}",
+                     "Text_pl" : "Autor: {Author}",
+                     "Text_pt-BR" : "Por {Author}",
+                     "Text_ar" : "بواسطة {Author}",
+                     "Text_tr" : "Yapan: {Author}"
+                  },
+                  {
+                     "Text" : "Cost",
+                     "TextStyle" : "inverted-extrasmall-strong",
+                     "HAlign" : "Right",
+                     "VAlign" : "Center",
+                     "Margin" : {
+                        "Left" : 20,
+                        "Top" : 40,
+                        "Right" : 20,
+                        "Bottom" : 10
+                     }
+                  }
+               ],
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "BasicTile",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 4
+                  }
+               ],
+               "MaxHeight" : 400,
+               "MinHeight" : 400,
+               "Binding" : "1c8727b528b34520bd75f08cc99e1426",
+               "HasShadow" : "false",
+               "Images" : [
+                  {
+                     "Image" : "Featured"
+                  }
+               ],
+               "OnNavigateUrl" : "/ut/marketplace/{Id}",
+               "Text" : [
+                  {
+                     "Text" : "Title",
+                     "TextStyle" : "inverted-h3",
+                     "Margin" : {
+                        "Left" : 20,
+                        "Top" : 10,
+                        "Right" : 0,
+                        "Bottom" : 20
+                     }
+                  },
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "By {Author}",
+                     "TextStyle" : "inverted-extrasmall-body",
+                     "Margin" : {
+                        "Left" : 20,
+                        "Top" : 40,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "Text_ko" : "제작: {Author}",
+                     "Text_ja" : "製作：{Author}",
+                     "Text_zh-CN" : "作者{Author}",
+                     "Text_fr" : "Par {Author}",
+                     "Text_es-MX" : "Por {Author}",
+                     "Text_de" : "Von {Author}",
+                     "Text_it" : "Di {Author}",
+                     "Text_ru" : "Производство: {Author}",
+                     "Text_es" : "Por {Author}",
+                     "Text_pl" : "Autor: {Author}",
+                     "Text_pt-BR" : "Por {Author}",
+                     "Text_ar" : "بواسطة {Author}",
+                     "Text_tr" : "Yapan: {Author}"
+                  },
+                  {
+                     "Text" : "Cost",
+                     "TextStyle" : "inverted-extrasmall-strong",
+                     "HAlign" : "Right",
+                     "VAlign" : "Center",
+                     "Margin" : {
+                        "Left" : 20,
+                        "Top" : 40,
+                        "Right" : 20,
+                        "Bottom" : 10
+                     }
+                  }
+               ],
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "BasicTile",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 4
+                  }
+               ],
+               "MaxHeight" : 400,
+               "MinHeight" : 400,
+               "Binding" : "ad626776f83d4bbfaee98234147a0e69",
+               "HasShadow" : "false",
+               "Images" : [
+                  {
+                     "Image" : "Featured"
+                  }
+               ],
+               "OnNavigateUrl" : "/ut/marketplace/{Id}",
+               "Text" : [
+                  {
+                     "Text" : "Title",
+                     "TextStyle" : "inverted-h3",
+                     "Margin" : {
+                        "Left" : 20,
+                        "Top" : 10,
+                        "Right" : 0,
+                        "Bottom" : 20
+                     }
+                  },
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "By {Author}",
+                     "TextStyle" : "inverted-extrasmall-body",
+                     "Margin" : {
+                        "Left" : 20,
+                        "Top" : 40,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "Text_ko" : "제작: {Author}",
+                     "Text_ja" : "製作：{Author}",
+                     "Text_zh-CN" : "作者{Author}",
+                     "Text_fr" : "Par {Author}",
+                     "Text_es-MX" : "Por {Author}",
+                     "Text_de" : "Von {Author}",
+                     "Text_it" : "Di {Author}",
+                     "Text_ru" : "Производство: {Author}",
+                     "Text_es" : "Por {Author}",
+                     "Text_pl" : "Autor: {Author}",
+                     "Text_pt-BR" : "Por {Author}",
+                     "Text_ar" : "بواسطة {Author}",
+                     "Text_tr" : "Yapan: {Author}"
+                  },
+                  {
+                     "Text" : "Cost",
+                     "TextStyle" : "inverted-extrasmall-strong",
+                     "HAlign" : "Right",
+                     "VAlign" : "Center",
+                     "Margin" : {
+                        "Left" : 20,
+                        "Top" : 40,
+                        "Right" : 40,
+                        "Bottom" : 10
+                     }
+                  }
+               ],
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "Panel",
+               "Row" : 1,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 12
+                  }
+               ],
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "BackgroundImage" : "#27292dff",
+               "Children" : [
+                  {
+                     "Type" : "Link",
+                     "HAlign" : "Center",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 5,
+                        "Right" : 0,
+                        "Bottom" : 5
+                     },
+                     "Image" : {
+                        "Image" : "small_download_icon.png"
+                     },
+                     "HoverIcon" : {
+                        "Image" : "ExternalLink.png"
+                     },
+                     "Text" : {
+                        "Text_translate" : "true",
+                        "Text" : "Learn more about submitting content",
+                        "TextStyle" : "inverted-body",
+                        "Margin" : {
+                           "Left" : 10,
+                           "Top" : 0,
+                           "Right" : 10,
+                           "Bottom" : 0
+                        },
+                        "Text_ko" : "콘텐츠 제출에 대해 자세히 알아보세요.",
+                        "Text_ja" : "コンテンツの提出について",
+                        "Text_zh-CN" : "了解更多关于提交内容的信息",
+                        "Text_fr" : "Découvrez-en plus sur l'envoi de contenus.",
+                        "Text_es" : "Más información sobre el envío de contenido",
+                        "Text_de" : "Mehr über das Übermitteln eigener Inhalte erfahren",
+                        "Text_it" : "Più informazioni sull'invio di contenuti",
+                        "Text_ru" : "Узнайте больше о загрузке контента",
+                        "Text_pl" : "Dowiedz się więcej na temat przesyłania zawartości",
+                        "Text_ar" : "تعلم المزيد عن تقديم المحتوى",
+                        "Text_pt-BR" : "Aprenda mais sobre o envio de conteúdo",
+                        "Text_es-MX" : "Obtén más información sobre el envío de contenido",
+                        "Text_tr" : "İçerik gönderme hakkında daha fazla bilgi edin"
+                     },
+                     "OnNavigateUrl" : "http://epic.gm/utmarketplacefaq"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "HAlign" : "Center",
+         "MaxWidth" : 1430,
+         "MinWidth" : 1430,
+         "Children" : [
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "MinWidth" : 1400,
+               "MaxWidth" : 1400,
+               "HAlign" : "Center",
+               "AutoSize" : false,
+               "Children" : [
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Horizontal",
+                     "Padding" : {
+                        "Left" : 20,
+                        "Top" : 0,
+                        "Right" : 50,
+                        "Bottom" : 0
+                     },
+                     "AutoSize" : false,
+                     "Children" : [
+                        {
+                           "Type" : "Panel",
+                           "Text" : [
+                              {
+                                 "Text_translate" : "true",
+                                 "Text" : "MAPS",
+                                 "Text_ko" : "맵",
+                                 "Text_ja" : "マップ",
+                                 "Text_zh-CN" : "地图",
+                                 "Text_fr" : "CARTES",
+                                 "Text_es" : "MAPAS",
+                                 "Text_de" : "KARTEN",
+                                 "Text_it" : "MAPPE",
+                                 "Text_ru" : "КАРТЫ",
+                                 "Text_pl" : "MAPY",
+                                 "Text_ar" : "الخرائط",
+                                 "Text_pt-BR" : "MAPAS",
+                                 "Text_es-MX" : "MAPAS",
+                                 "TextStyle" : "inverted-h4",
+                                 "HAlign" : "Left",
+                                 "VAlign" : "Top",
+                                 "WrapAt" : 400,
+                                 "Margin" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "Text_tr" : "HARİTALAR"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Panel",
+                           "HAlign" : "Fill",
+                           "AutoSize" : false,
+                           "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+                           "Height" : 1,
+                           "VAlign" : "Bottom",
+                           "Padding" : {
+                              "Left" : 30,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 8
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Grid",
+                     "MetaData" : "ut-marketplaceSubtabMapsGrid",
+                     "Includes" : [
+                        "assets/environments"
+                     ],
+                     "Excludes" : [
+                        "Items"
+                     ],
+                     "SortBy" : "ViewableDate",
+                     "SortDirection" : "Descending",
+                     "ElementHeight" : 272,
+                     "ElementWidth" : 362,
+                     "ItemAlignment" : "LeftAligned",
+                     "Layout" : "ui_UTMarketplaceLevelsV3",
+                     "Padding" : {
+                        "Left" : 20,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 60
+                     }
+                  },
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Horizontal",
+                     "Padding" : {
+                        "Left" : 20,
+                        "Top" : 0,
+                        "Right" : 50,
+                        "Bottom" : 10
+                     },
+                     "AutoSize" : false,
+                     "Children" : [
+                        {
+                           "Type" : "Panel",
+                           "Text" : [
+                              {
+                                 "Text_translate" : "true",
+                                 "Text" : "ACCESSORIES",
+                                 "Text_ko" : "액세서리",
+                                 "Text_ja" : "装備品",
+                                 "Text_zh-CN" : "配件",
+                                 "Text_fr" : "ACCESSOIRES",
+                                 "Text_es" : "ACCESORIOS",
+                                 "Text_de" : "ZUBEHÖR",
+                                 "Text_it" : "ACCESSORI",
+                                 "Text_ru" : "АКСЕССУАРЫ",
+                                 "Text_pl" : "AKCESORIA",
+                                 "Text_ar" : "الملحقات",
+                                 "Text_pt-BR" : "ACESSÓRIOS",
+                                 "Text_es-MX" : "ACCESORIOS",
+                                 "TextStyle" : "inverted-h4",
+                                 "HAlign" : "Left",
+                                 "VAlign" : "Top",
+                                 "WrapAt" : 400,
+                                 "Margin" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "Text_tr" : "AKSESUARLAR"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Panel",
+                           "HAlign" : "Fill",
+                           "AutoSize" : false,
+                           "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+                           "Height" : 1,
+                           "VAlign" : "Bottom",
+                           "Padding" : {
+                              "Left" : 30,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 8
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Grid",
+                     "Includes" : [
+                        "assets/props"
+                     ],
+                     "Excludes" : [
+                        "Items"
+                     ],
+                     "SortBy" : "ViewableDate",
+                     "SortDirection" : "Descending",
+                     "ElementHeight" : 272,
+                     "ElementWidth" : 362,
+                     "ItemAlignment" : "LeftAligned",
+                     "Layout" : "ui_UTMarketplaceLevelsV3",
+                     "Padding" : {
+                        "Left" : 20,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 60
+                     }
+                  },
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Horizontal",
+                     "Padding" : {
+                        "Left" : 20,
+                        "Top" : 0,
+                        "Right" : 50,
+                        "Bottom" : 10
+                     },
+                     "AutoSize" : false,
+                     "Children" : [
+                        {
+                           "Type" : "Panel",
+                           "Text" : [
+                              {
+                                 "Text_translate" : "true",
+                                 "Text" : "DEVELOPMENT CONTENT",
+                                 "Text_ko" : "개발 콘텐츠",
+                                 "Text_zh-CN" : "开发内容",
+                                 "Text_ja" : "デベロップメントコンテンツ",
+                                 "Text_fr" : "CONTENU DE DÉVELOPPEMENT",
+                                 "Text_es" : "CONTENIDO DE DESARROLLO",
+                                 "Text_de" : "ENTWICKLERINHALTE",
+                                 "Text_it" : "CONTENUTI DI SVILUPPO",
+                                 "Text_ru" : "КОНТЕНТ ДЛЯ РАЗРАБОТКИ",
+                                 "Text_pl" : "ZAWARTOŚĆ DLA DEWELOPERÓW",
+                                 "Text_ar" : "محتوى التطوير",
+                                 "Text_pt-BR" : "CONTEÚDO DE DESENVOLVIMENTO",
+                                 "Text_es-MX" : "CONTENIDO DE DESARROLLO",
+                                 "TextStyle" : "inverted-h4",
+                                 "HAlign" : "Left",
+                                 "VAlign" : "Top",
+                                 "WrapAt" : 400,
+                                 "Margin" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "Text_tr" : "GELİŞTİRME İÇERİĞİ"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Panel",
+                           "HAlign" : "Fill",
+                           "AutoSize" : false,
+                           "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+                           "Height" : 1,
+                           "VAlign" : "Bottom",
+                           "Padding" : {
+                              "Left" : 30,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 8
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Grid",
+                     "Includes" : [
+                        "assets/devcontent"
+                     ],
+                     "Excludes" : [
+                        "Items"
+                     ],
+                     "SortBy" : "ViewableDate",
+                     "SortDirection" : "Descending",
+                     "ElementHeight" : 272,
+                     "ElementWidth" : 362,
+                     "ItemAlignment" : "LeftAligned",
+                     "Layout" : "ui_UTMarketplaceLevelsV3",
+                     "Padding" : {
+                        "Left" : 20,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 30
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

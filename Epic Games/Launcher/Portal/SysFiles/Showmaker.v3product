@@ -1,0 +1,47 @@
+{
+	"Id": "showmaker",
+	"Priority": 65,
+	"AnalyticsId": "showmaker",
+	"DisplayName": "Showmaker",	
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "showmaker",
+	"Categories": "Create",
+	"EulaExpression": "(showmaker && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.54799, 0.00006, 0.00001",
+	"PressedPrimaryColor": "0.44787, 0.00006, 0.00001",
+	"HoveredPrimaryColor": "0.7372, 0.00011, 0.00002",
+	"Homepage": "/create/showmaker",
+	"Pages": [
+		{
+			"Id": "create.showmaker",
+			"PartialUrl": "/showmaker",
+			"SourceUrls" : [
+				{
+					"SourceUrl": "ui_ShowmakerV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},		
+				{
+					"SourceUrl": "ui_ShowmakerV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "showmaker",
+			"GroupId": "Editor",
+			"OfferId": "7178958ecc57448b88812b2a22cb228b",
+			"ItemId": "4df854e1c928454db0c902254d55074b",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

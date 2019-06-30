@@ -1,0 +1,47 @@
+{
+	"Id": "battalion",
+	"Priority": 33,
+	"AnalyticsId": "battalion",
+	"DisplayName": "Battalion",	
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "battalion",
+	"Categories": "Create",
+	"EulaExpression": "(battalion && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.54799, 0.00006, 0.00001",
+	"PressedPrimaryColor": "0.44787, 0.00006, 0.00001",
+	"HoveredPrimaryColor": "0.7372, 0.00011, 0.00002",
+	"Homepage": "/create/battalion",
+	"Pages": [
+		{
+			"Id": "create.battalion",
+			"PartialUrl": "/battalion",
+			"SourceUrls" : [
+				{
+					"SourceUrl": "ui_BattalionV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},		
+				{
+					"SourceUrl": "ui_BattalionV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "battalion",
+			"GroupId": "Editor",
+			"OfferId": "fc81c913519d44dfb645abb2d2db26b7",
+			"ItemId": "95c3144e57194c85a4a2c6adac3cabda",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

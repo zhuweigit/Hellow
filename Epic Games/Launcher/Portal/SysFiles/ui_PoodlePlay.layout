@@ -1,0 +1,835 @@
+﻿{
+   "Type" : "Overlay",
+   "AutoSize" : "false",
+   "RequiresBindingSource" : false,
+   "Children" : [
+      {
+         "Type" : "ScrollBox",
+         "AutoSize" : "false",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "AutoSize" : "false",
+               "Children" : [
+                  {
+                     "Type" : "Overlay",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Children" : [
+                        {
+                           "Type" : "BasicTile",
+                           "HasShadow" : "false",
+                           "Height" : 770,
+                           "LoadSilently" : "true",
+                           "Images" : [
+                              {
+                                 "Image" : "Poodle_Header.png"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "BuildSelector",
+                           "HAlign" : "Right",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 10,
+                              "Right" : 45,
+                              "Bottom" : 0
+                           },
+                           "VAlign" : "Top",
+                           "SelectorId" : "Game",
+                           "GroupId" : "Game"
+                        },
+                        {
+                           "Type" : "Box",
+                           "Orientation" : "Vertical",
+                           "HAlign" : "Center",
+                           "VAlign" : "Fill",
+                           "MinWidth" : 1600,
+                           "Padding" : {
+                              "Left" : 75,
+                              "Top" : 100,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "Children" : [
+                              {
+                                 "Type" : "BasicTile",
+                                 "HasShadow" : "false",
+                                 "LoadSilently" : "true",
+                                 "HAlign" : "Left",
+                                 "VAlign" : "Top",
+                                 "Height" : 90,
+                                 "Width" : 401,
+                                 "Images" : [
+                                    {
+                                       "Image" : "Poodle_Logo.png"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "Panel",
+                                 "AutoSize" : "false",
+                                 "VAlign" : "Fill"
+                              },
+                              {
+                                 "Type" : "Panel",
+                                 "AutoSize" : "true",
+                                 "VAlign" : "Bottom",
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 80,
+                                    "Bottom" : 15
+                                 },
+                                 "Text" : [
+                                    {
+                                       "Text_translate" : "true",
+                                       "Text" : "REAL-TIME IMMERSIVE 3D\nARCHITECTURAL VISUALIZATION",
+                                       "TextStyle" : "inverted-h2",
+                                       "LineHeightScalar" : 1.2,
+                                       "Text_fr" : "VISUALISATION ARCHITECTURALE\n3D IMMERSIVE EN TEMPS RÉEL",
+                                       "Text_it" : "VISUALIZZAZIONE ARCHITETTONICA\n3D IMMERSIVA IN TEMPO REALE",
+                                       "Text_de" : "3D-ARCHITEKTURVISUALISIERUNG\nIN IMMERSIVER ECHTZEIT",
+                                       "Text_es" : "VISUALIZACIÓN ARQUITECTÓNICA\nINMERSIVA 3D EN TIEMPO REAL",
+                                       "Text_es-MX" : "VISUALIZACIÓN ARQUITECTÓNICA\n3D ENVOLVENTE EN TIEMPO REAL",
+                                       "Text_ru" : "ИММЕРСИВНАЯ ТРЕХМЕРНАЯ АРХИТЕКТУРНАЯ ВИЗУАЛИЗАЦИЯ\nВ РЕАЛЬНОМ ВРЕМЕНИ",
+                                       "Text_pl" : "IMMERSYJNE WIZUALIZACJE ARCHITEKTURALNE 3D\nW CZASIE RZECZYWISTYM",
+                                       "Text_ar" : "التصوير المعماري ثلاثي الأبعاد الحقيقي\nالذي تتعايش معه بكل حواسك",
+                                       "Text_ko" : "몰입감 있는 실시간 3D\n건축학의 구현",
+                                       "Text_ja" : "引き込まれる3D建築を\nリアルタイムで視覚化",
+                                       "Text_zh-CN" : "实时沉浸式3D\n建筑可视化",
+                                       "Text_pt-BR" : "VISUALIZAÇÃO ARQUITETÔNICA 3D\nIMERSIVA E EM TEMPO REAL",
+                                       "Text_tr" : "GERÇEK ZAMANLI VE SÜRÜKLEYİCİ\n3B MİMARİ GÖRSELLEŞTİRME"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "Panel",
+                                 "AutoSize" : "true",
+                                 "VAlign" : "Bottom",
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 80,
+                                    "Bottom" : 60
+                                 },
+                                 "Text" : [
+                                    {
+                                       "Text_translate" : "true",
+                                       "Text" : "Easily produce high-quality images, panoramas, and standard or 360° VR videos in seconds! For architecture, construction, urban planning, and landscaping professionals, Twinmotion combines an intuitive icon-driven interface with the power of Unreal Engine.",
+                                       "TextStyle" : "inverted-h6",
+                                       "WrapAt" : 800,
+                                       "AutoWrap" : "true",
+                                       "LineHeightScalar" : 1.2,
+                                       "Text_fr" : "Produisez facilement des images de haute qualité, des panoramas, des vidéos en RV standard ou à 360° en quelques secondes ! Pour les professionnels de l'architecture, de la construction, de l'urbanisme et de l'aménagement paysager, Twinmotion combine une interface intuitive basée sur des icônes avec la puissance de l'Unreal Engine.",
+                                       "Text_it" : "Realizza facilmente immagini di alta qualità, panorami e video in RV standard o a 360° in pochi secondi! Pensato per professionisti che lavorano nell'ambito di architettura, costruzioni, pianificazione urbana e paesaggistica, Twinmotion unisce un'interfaccia intuitiva caratterizzata da icone con la potenza di Unreal Engine.",
+                                       "Text_de" : "Erstelle ganz leicht hochwertige Bilder, Panoramen, normale und 360-Grad-Videos in nur wenigen Sekunden! Twinmotion unterstützt Architekten, Konstrukteure, Stadtplaner und Landschaftsarchitekten mit seiner intuitiven, symbolbasierten Benutzeroberfläche und der Kraft der Unreal Engine.",
+                                       "Text_es" : "¡Crea imágenes de alta calidad, panorámicas y vídeos normales o de RV en 360º en segundos y de manera sencilla! Creado para los profesionales de la arquitectura, construcción, planificación urbanística y paisajística, Twinmotion combina una interfaz intuitiva basada en iconos con la potencia del motor Unreal.",
+                                       "Text_es-MX" : "¡Puedes producir fácilmente imágenes, paisajes y videos estándar o de realidad virtual en 360° de calidad en solo segundos! Dirigido a profesionales de la arquitectura, construcción, planificación urbana y paisajismo, Twinmotion combina una interfaz de íconos intuitiva y la potencia de Unreal Engine.",
+                                       "Text_ru" : "С легкостью создавайте высококачественные изображения, панорамы, а также видео в стандартном формате или формате 360° для виртуальной реальности — и все это за считанные секунды! ПО Twinmotion сочетает в себе интуитивный интерфейс на основе значков и широкие возможности Unreal Engine, а потому как нельзя лучше подходит для специалистов в области архитектуры, строительства, градостроительства и ландшафтного дизайна.",
+                                       "Text_pl" : "Z łatwością twórz wysokiej jakości obrazy, panoramy i zwykłe filmy lub wideoklipy w standardzie VR 360°! Twinmotion łączy w sobie intuicyjny, oparty na ikonach interfejs z potęgą silnika Unreal Engine, dzięki czemu jest doskonałym wyborem dla fachowców z dziedzin architektury, budowy, planowania przestrzennego czy przekształcania krajobrazu.",
+                                       "Text_ar" : "يمكنك بسهولة إنتاج صور عالية الجودة، وصور بانورامية، ومقاطع فيديو قياسية أوبخاصة الواقع الافتراضي 360 درجة في ثوانٍ! بالنسبة للمهندسين المعماريين والبناء والتخطيط الحضري وهندسة المناظر الطبيعية، تجمع Twinmotion بين واجهة سهلة الاستخدام مدفوعة بالأيقونات مع قوة Unreal Engine.",
+                                       "Text_ko" : "고품질 이미지, 파노라마, 스탠다드, 360° VR 비디오를 몇 초 안에 간단하게 생성하세요! Twinmotion은 건설, 건축, 도시 계획, 조경의 각 분야 전문가들과 함께 직관적인 아이콘 중심의 인터페이스와 언리얼 엔진의 파워를 결합시켰습니다.",
+                                       "Text_ja" : "高品質画像、パノラマ、標準、360度VR動画を簡単に制作できます！『Twinmotion』は、Unreal Engine のパワーを活かしたアイコンで操作する直感的なインターフェースで、建築、建設、都市開発、造園のプロに最適です。",
+                                       "Text_zh-CN" : "仅需数秒，即可轻易制作高质量图像、全景照片，以及标准或360°VR视频！针对建筑、施工、城市规划和景观设计专业人士，Twinmotion集直观的图标驱动界面以及Unreal Engine的强大能力于一身。",
+                                       "Text_pt-BR" : "Produza facilmente imagens, panoramas e vídeos padrões ou de RV 360° de alta qualidade em segundos! Para profissionais de arquitetura, construção, planejamento urbano e paisagismo, Twinmotion integra uma interface intuitiva orientada por ícones com a eficiência da Unreal Engine.",
+                                       "Text_tr" : "Saniyeler içerisinde kolay bir şekilde yüksek kaliteli görüntüler, panoramalar ve standart veya 360° sanal gerçeklik videoları hazırlayın! Twinmotion; mimarlık, inşaat, şehir planlaması ve çevre düzenleme çalışanları için simgelere dayalı sezgisel bir arayüzü Unreal Engine gücüyle birleştiriyor."
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "Box",
+                                 "Orientation" : "Horizontal",
+                                 "HAlign" : "Fill",
+                                 "VAlign" : "Bottom",
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 30
+                                 },
+                                 "Children" : [
+                                    {
+                                       "Type" : "Button",
+                                       "ButtonStyle" : "SecondaryButton",
+                                       "Text" : "LEARN MORE",
+                                       "Text_translate" : "true",
+                                       "TextStyle" : "inverted-h5",
+                                       "OnNavigateUrl" : "[poodle_home]",
+                                       "HAlign" : "Center",
+                                       "VAlign" : "Center",
+                                       "ContentPadding" : {
+                                          "Left" : 45,
+                                          "Top" : 20,
+                                          "Right" : 45,
+                                          "Bottom" : 20
+                                       },
+                                       "Text_fr" : "EN SAVOIR PLUS",
+                                       "Text_it" : "SCOPRI DI PIÙ",
+                                       "Text_de" : "WEITERE DETAILS",
+                                       "Text_es" : "MÁS INFORMACIÓN",
+                                       "Text_es-MX" : "MÁS INFORMACIÓN",
+                                       "Text_ru" : "УЗНАТЬ БОЛЬШЕ",
+                                       "Text_pl" : "WIĘCEJ INFORMACJI",
+                                       "Text_ar" : "معرفة المزيد",
+                                       "Text_ko" : "자세히 알아보기",
+                                       "Text_ja" : "詳細はこちら",
+                                       "Text_zh-CN" : "了解更多",
+                                       "Text_pt-BR" : "SAIBA MAIS",
+                                       "Text_tr" : "DAHA FAZLA BİLGİ EDİN"
+                                    },
+                                    {
+                                       "Type" : "Panel",
+                                       "AutoSize" : "false",
+                                       "HAlign" : "Fill"
+                                    },
+                                    {
+                                       "Type" : "ActionButton",
+                                       "MinWidth" : 442,
+                                       "MinHeight" : 115,
+                                       "SelectorId" : "Game",
+                                       "GroupId" : "Game",
+                                       "Padding" : {
+                                          "Left" : 0,
+                                          "Top" : 0,
+                                          "Right" : 120,
+                                          "Bottom" : 0
+                                       }
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Vertical",
+                     "MaxWidth" : 1400,
+                     "MinWidth" : 1400,
+                     "HAlign" : "Center",
+                     "Children" : [
+                        {
+                           "Type" : "Panel",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 60,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "Text" : [
+                              {
+                                 "Text_translate" : "true",
+                                 "Text" : "GET THE MOST OUT OF TWINMOTION",
+                                 "TextStyle" : "inverted-ExtraLarge-Title",
+                                 "HAlign" : "Center",
+                                 "VAlign" : "Center",
+                                 "Margin" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "LineHeightScalar" : 1.2,
+                                 "Text_fr" : "OBTENEZ LE MAXIMUM DE TWINMOTION",
+                                 "Text_it" : "OTTIENI IL MASSIMO DA TWINMOTION",
+                                 "Text_de" : "HOLE ALLES AUS TWINMOTION HERAUS",
+                                 "Text_es" : "SÁCALE EL MÁXIMO PARTIDO A TWINMOTION",
+                                 "Text_es-MX" : "SACA EL MÁXIMO PARTIDO DE TWINMOTION",
+                                 "Text_ru" : "ИСПОЛЬЗУЙТЕ ВОЗМОЖНОСТИ TWINMOTION ПО МАКСИМУМУ",
+                                 "Text_pl" : "WYKORZYSTAJ W PEŁNI TWINMOTION",
+                                 "Text_ar" : "احصل على المزيد من TWINMOTION",
+                                 "Text_ko" : "Twinmotion 파악하기",
+                                 "Text_ja" : "TWINMOTION を最大限に活用しましょう",
+                                 "Text_zh-CN" : "充分利用TWINMOTION",
+                                 "Text_pt-BR" : "APROVEITE AO MÁXIMO TWINMOTION",
+                                 "Text_tr" : "TWINMOTION'DAN EN İYİ ŞEKİLDE YARARLANIN"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "ResponsiveGrid",
+                           "Padding" : {
+                              "Left" : 60,
+                              "Top" : 60,
+                              "Right" : 60,
+                              "Bottom" : 0
+                           },
+                           "TotalColumns" : 12,
+                           "ColumnGutter" : 15,
+                           "Children" : [
+                              {
+                                 "Type" : "Box",
+                                 "Orientation" : "Vertical",
+                                 "Row" : 0,
+                                 "ColumnSpans" : [
+                                    {
+                                       "LayoutSize" : 1050,
+                                       "Span" : 6
+                                    },
+                                    {
+                                       "LayoutSize" : 0,
+                                       "Span" : 12
+                                    }
+                                 ],
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 20
+                                 },
+                                 "Children" : [
+                                    {
+                                       "Type" : "BasicTile",
+                                       "HasShadow" : "false",
+                                       "Height" : 330,
+                                       "LoadSilently" : "true",
+                                       "Images" : [
+                                          {
+                                             "Image" : "Poodle_Community.png",
+                                             "HAlign" : "Right",
+                                             "VAlign" : "Bottom"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "Type" : "Panel",
+                                       "Padding" : {
+                                          "Left" : 0,
+                                          "Top" : 20,
+                                          "Right" : 0,
+                                          "Bottom" : 5
+                                       },
+                                       "Text" : [
+                                          {
+                                             "Text_translate" : "true",
+                                             "Text" : "COMMUNITY SUPPORT",
+                                             "TextStyle" : "Inverted-Tiny-h3",
+                                             "HAlign" : "Left",
+                                             "VAlign" : "Center",
+                                             "Margin" : {
+                                                "Left" : 0,
+                                                "Top" : 0,
+                                                "Right" : 0,
+                                                "Bottom" : 0
+                                             },
+                                             "LineHeightScalar" : 1.2,
+                                             "Text_fr" : "SOUTIEN DE LA COMMUNAUTÉ",
+                                             "Text_it" : "SUPPORTO COMMUNITY",
+                                             "Text_de" : "COMMUNITY-FUNKTIONEN",
+                                             "Text_es" : "APOYO A LA COMUNIDAD",
+                                             "Text_es-MX" : "APOYO A LA COMUNIDAD",
+                                             "Text_ru" : "ПОДДЕРЖКА СООБЩЕСТВА",
+                                             "Text_pl" : "WSPARCIE SPOŁECZNOŚCI",
+                                             "Text_ar" : "دعم المجتمع",
+                                             "Text_ko" : "커뮤니티 지원",
+                                             "Text_ja" : "コミュニティサポート",
+                                             "Text_zh-CN" : "社区支持",
+                                             "Text_pt-BR" : "SUPORTE À COMUNIDADE",
+                                             "Text_tr" : "TOPLULUK DESTEĞİ"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "Type" : "Panel",
+                                       "Padding" : {
+                                          "Left" : 0,
+                                          "Top" : 0,
+                                          "Right" : 0,
+                                          "Bottom" : 60
+                                       },
+                                       "Text" : [
+                                          {
+                                             "Text_translate" : "true",
+                                             "Text" : "Need help, advice, or inspiration? Our vibrant community lets you interact with other Twinmotion users, discuss ideas and issues, and access our knowledge base for assistance. Log in now to participate.",
+                                             "TextStyle" : "Inverted-Small-Small",
+                                             "HAlign" : "Left",
+                                             "VAlign" : "Center",
+                                             "WrapAt" : 550,
+                                             "Margin" : {
+                                                "Left" : 0,
+                                                "Top" : 0,
+                                                "Right" : 0,
+                                                "Bottom" : 0
+                                             },
+                                             "LineHeightScalar" : 1.2,
+                                             "Text_fr" : "Vous avez besoin d'aide, d'un conseil ou d'inspiration ? Notre communauté dynamique vous permet d'interagir avec d'autres utilisateurs de Twinmotion, d'échanger des idées, de discuter des problèmes et d'accéder à notre base de connaissances pour obtenir de l'aide. Connectez-vous maintenant pour participer.",
+                                             "Text_it" : "Hai bisogno di aiuto, consigli o ispirazioni? La nostra vivace community ti permette di interagire con altri utenti di Twinmotion, discutere di idee e problemi e accedere alla knowledge base se hai bisogno di aiuto. Accedi ora per partecipare.",
+                                             "Text_de" : "Brauchst du Hilfe, Rat oder Inspiration? In unserer aktiven Community kannst du mit anderen Twinmotion-Nutzern Kontakt aufnehmen, dich über Ideen und Probleme austauschen und auf unsere Wissensdatenbank zurückgreifen. Melde dich an, um teilzunehmen.",
+                                             "Text_es" : "¿Necesitas ayuda, consejo o inspiración? Nuestra activa comunidad te permitirá ponerte en contacto con otros usuarios de Twinmotion, discutir ideas y problemas, y acceder a nuestra base de datos en caso de necesitar ayuda. Conéctate y participa.",
+                                             "Text_es-MX" : "¿Necesitas ayuda, consejos o inspiración? Nuestra dinámica comunidad te permite interactuar con otros usuarios de Twinmotion, hablar de ideas y problemas, y acceder a nuestra base de conocimiento si necesitas ayuda. Inicia sesión para participar.",
+                                             "Text_ru" : "Ищете помощь, совет или вдохновение? В нашем замечательном сообществе вы можете взаимодействовать с другими пользователями Twinmotion, обсуждать идеи и трудности, а также пользоваться нашей базой знаний. Войдите, чтобы принять участие.",
+                                             "Text_pl" : "Potrzebujesz pomocy, porady, inspiracji? Nasza tętniąca życiem społeczność umożliwia interakcje z innymi użytkownikami Twinmotion, prowadzenie dyskusji na temat pomysłów i problemów oraz korzystanie z naszej bazy wiedzy. Zaloguj się, by do niej dołączyć.",
+                                             "Text_ar" : "هل تحتاج إلى مساعدة أو نصيحة أو إلهام؟ يتيح لك مجتمعنا النابض بالحياة التفاعل مع مستخدمي Twinmotion الآخرين ومناقشة الأفكار والقضايا والوصول إلى قاعدة معارفنا للحصول على المساعدة. قم بتسجيل الدخول الآن للمشاركة.",
+                                             "Text_ko" : "도움이나 조언, 영감이 필요하신가요? 생기 넘치는 커뮤니티에서 Twinmotion 유저들과 상호 소통하고, 아이디어와 이슈에 대해 토론하며 지원에 필요한 지식을 찾을 수 있습니다. 지금 로그인하고 참여하세요.",
+                                             "Text_ja" : "ヘルプ、アドバイス、インスピレーションが必要ですか？活気あるコミュニティでは、他のTwinmotionユーザーと交流してアイデアや問題を話し合ったり、ナレッジベースで情報を確認したりできます。今すぐログインして仲間になりましょう。",
+                                             "Text_zh-CN" : "需要帮助、建议还是启发？在我们生机勃勃的社区，您可与其他Twinmotion用户交流，讨论创意和问题，并访问我们的知识库以获取帮助。立即登录以加入我们。",
+                                             "Text_pt-BR" : "Precisa de ajuda, orientação ou inspiração? Nossa comunidade dinâmica ajuda você a interagir com outros usuários do Twinmotion, discutir ideias e problemas e também a acessar nossa base de conhecimento caso tenha alguma dúvida. Entre para participar.",
+                                             "Text_tr" : "Yardıma, tavsiyeye veya ilhama mı ihtiyacınız var? Canlı topluluğumuz, diğer Twinmotion kullanıcılarıyla etkileşime girmenize, fikirleri ve sorunları tartışmanıza ve yardım için bilgi bankamıza erişmenize olanak sağlar. Katılmak için şimdi giriş yapın."
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "Type" : "Box",
+                                       "Orientation" : "Vertical",
+                                       "HAlign" : "Left",
+                                       "VAlign" : "Center",
+                                       "AutoSize" : "false",
+                                       "Children" : [
+                                          {
+                                             "Type" : "Overlay",
+                                             "Padding" : {
+                                                "Left" : 0,
+                                                "Top" : 0,
+                                                "Right" : 0,
+                                                "Bottom" : 0
+                                             },
+                                             "Children" : [
+                                                {
+                                                   "Type" : "Panel",
+                                                   "BackgroundImage" : "#DD2367",
+                                                   "MinWidth" : 260,
+                                                   "MinHeight" : 60,
+                                                   "Padding" : {
+                                                      "Left" : 0,
+                                                      "Top" : 0,
+                                                      "Right" : 0,
+                                                      "Bottom" : 0
+                                                   }
+                                                },
+                                                {
+                                                   "Type" : "Link",
+                                                   "HAlign" : "Center",
+                                                   "VAlign" : "Center",
+                                                   "Padding" : {
+                                                      "Left" : 10,
+                                                      "Top" : 0,
+                                                      "Right" : 0,
+                                                      "Bottom" : 0
+                                                   },
+                                                   "HoverIcon" : {
+                                                      "Image" : "ExternalLink.png"
+                                                   },
+                                                   "AutoSize" : "false",
+                                                   "Text" : {
+                                                      "Text" : "MEET THE COMMUNITY",
+                                                      "Text_translate" : "true",
+                                                      "TextStyle" : "inverted-h5",
+                                                      "Margin" : {
+                                                         "Left" : 0,
+                                                         "Top" : 0,
+                                                         "Right" : 5,
+                                                         "Bottom" : 0
+                                                      },
+                                                      "Text_fr" : "RENCONTRER LA COMMUNAUTÉ",
+                                                      "Text_it" : "INCONTRA LA COMMUNITY",
+                                                      "Text_de" : "TRIFF DIE COMMUNITY",
+                                                      "Text_es" : "CONOCE A LA COMUNIDAD",
+                                                      "Text_es-MX" : "CONOCE A LA COMUNIDAD",
+                                                      "Text_ru" : "ПОЗНАКОМЬТЕСЬ С СООБЩЕСТВОМ",
+                                                      "Text_pl" : "POZNAJ SPOŁECZNOŚĆ",
+                                                      "Text_ar" : "تعرف على المجتمع",
+                                                      "Text_ko" : "커뮤니티 보기",
+                                                      "Text_ja" : "コミュニティ紹介",
+                                                      "Text_zh-CN" : "认识社区",
+                                                      "Text_pt-BR" : "CONHEÇA A COMUNIDADE",
+                                                      "Text_tr" : "TOPLULUKLA TANIŞ"
+                                                   },
+                                                   "OnNavigateUrl" : "[poodle_community]"
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "Box",
+                                 "Orientation" : "Vertical",
+                                 "Row" : 0,
+                                 "ColumnSpans" : [
+                                    {
+                                       "LayoutSize" : 1050,
+                                       "Span" : 6
+                                    },
+                                    {
+                                       "LayoutSize" : 0,
+                                       "Span" : 12
+                                    }
+                                 ],
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 20
+                                 },
+                                 "Children" : [
+                                    {
+                                       "Type" : "BasicTile",
+                                       "HasShadow" : "false",
+                                       "Height" : 330,
+                                       "LoadSilently" : "true",
+                                       "Images" : [
+                                          {
+                                             "Image" : "Poodle_Learning.png",
+                                             "HAlign" : "Right",
+                                             "VAlign" : "Bottom"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "Type" : "Panel",
+                                       "Padding" : {
+                                          "Left" : 0,
+                                          "Top" : 20,
+                                          "Right" : 0,
+                                          "Bottom" : 5
+                                       },
+                                       "Text" : [
+                                          {
+                                             "Text_translate" : "true",
+                                             "Text" : "ONLINE LEARNING",
+                                             "TextStyle" : "Inverted-Tiny-h3",
+                                             "HAlign" : "Left",
+                                             "VAlign" : "Center",
+                                             "Margin" : {
+                                                "Left" : 0,
+                                                "Top" : 0,
+                                                "Right" : 0,
+                                                "Bottom" : 0
+                                             },
+                                             "LineHeightScalar" : 1.2,
+                                             "Text_fr" : "APPRENTISSAGE EN LIGNE",
+                                             "Text_it" : "IMPARA ONLINE",
+                                             "Text_de" : "ONLINE LERNEN",
+                                             "Text_es" : "APRENDIZAJE ONLINE",
+                                             "Text_es-MX" : "APRENDIZAJE EN LÍNEA",
+                                             "Text_ru" : "ОНЛАЙН-ОБУЧЕНИЕ",
+                                             "Text_pl" : "NAUKA ONLINE",
+                                             "Text_ar" : "التعليم عبر الانترنت",
+                                             "Text_ko" : "온라인 러닝",
+                                             "Text_ja" : "オンライン学習ツール",
+                                             "Text_zh-CN" : "在线学习",
+                                             "Text_pt-BR" : "APRENDIZADO ON-LINE",
+                                             "Text_tr" : "ÇEVRİMİÇİ ÖĞRENME"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "Type" : "Panel",
+                                       "Padding" : {
+                                          "Left" : 0,
+                                          "Top" : 0,
+                                          "Right" : 0,
+                                          "Bottom" : 60
+                                       },
+                                       "Text" : [
+                                          {
+                                             "Text_translate" : "true",
+                                             "Text" : "You’ll find Twinmotion is so intuitive, there’s a lot you can figure out just by exploring. But if you need help on a particular function, check out our online library of over 100 short and helpful videos.",
+                                             "TextStyle" : "Inverted-Small-Small",
+                                             "HAlign" : "Left",
+                                             "VAlign" : "Center",
+                                             "WrapAt" : 550,
+                                             "Margin" : {
+                                                "Left" : 0,
+                                                "Top" : 0,
+                                                "Right" : 10,
+                                                "Bottom" : 0
+                                             },
+                                             "LineHeightScalar" : 1.2,
+                                             "Text_fr" : "Twinmotion est très intuitif, vous découvrirez beaucoup de fonctionnalité juste en explorant. Mais si vous avez besoin d'aide pour une fonctionnalité en particulier, consultez notre bibliothèque en ligne. Elle contient plus de 100 vidéos courtes et utiles.",
+                                             "Text_it" : "Twinmotion è estremamente intuitivo: ne comprenderai il funzionamento semplicemente esplorandolo. Tuttavia, se hai bisogno di spiegazioni su determinate funzioni, consulta la nostra libreria online con più di 100 video brevi e molto utili.",
+                                             "Text_de" : "Twinmotion ist so intuitiv, du kannst vieles nur durch Ausprobieren herausfinden. Aber wenn du zu einer bestimmten Funktion einmal Hilfe brauchst, findest du in unserer Online-Bibliothek über 100 kurze und hilfreiche Videos.",
+                                             "Text_es" : "Descubrirás que Twinmotion es tan intuitivo que aprenderás a hacer cosas simplemente explorando. Pero si necesitas ayuda con alguna función en particular, echa un vistazo a nuestra biblioteca online con más de 100 útiles vídeos cortos.",
+                                             "Text_es-MX" : "Verás que Twinmotion es muy intuitivo; tienes mucho que descubrir solo explorándolo. Pero si necesitas ayuda con una función en particular, revisa los más de 100 videos breves y útiles de nuestra biblioteca en línea.",
+                                             "Text_ru" : "ПО Twinmotion настолько интуитивно, что многие его возможности можно освоить, просто изучая интерфейс. Если же вам нужна помощь по определенной функции, воспользуйтесь нашей электронной библиотекой из более чем 100 коротких и полезных видеороликов.",
+                                             "Text_pl" : "Aplikacja Twinmotion jest tak intuicyjna w obsłudze, że wiele jej funkcji poznasz bez zaglądania do pomocy. Jeśli jednak będziesz potrzebować instrukcji użycia określonej funkcji, sprawdź naszą bibliotekę online zawierającą ponad 100 krótkich filmów szkoleniowych.",
+                                             "Text_ar" : "ستجد Twinmotion سهلاً للغاية، فهناك الكثير الذي يمكنك اكتشافه فقط من خلال الاستكشاف. ولكن إذا كنت بحاجة إلى مساعدة بشأن وظيفة معينة، تفقد مكتبتنا على الإنترنت حيث تحصل على أكثر من 100 مقطع فيديو قصير ومفيد.",
+                                             "Text_ko" : "슬쩍만 보아도 Twinmotion의 놀라운 직관성을 바로 확인할 수 있습니다. 특정 기능에 대한 도움이 필요한 경우, 100여 개의 간단하고 유용한 동영상이 있는 온라인 라이브러리를 확인해 보세요.",
+                                             "Text_ja" : "Twinmotionはきわめて直感的で、いろいろ試すだけでたくさんのことを学べます。特定の機能でわからないことがある場合は、オンラインライブラリから分かりやすい100種以上のショート動画をご参照いただけます。",
+                                             "Text_zh-CN" : "您会发现Twinmotion非常直观，只需多加探索，就能学到很多。如果您需要某个特定功能的帮助，请查看我们的在线知识库，其中包含100多个有用的短视频。",
+                                             "Text_pt-BR" : "Você verá que Twinmotion é muito intuitivo, muitas coisas podem ser compreendidas com uma pesquisa. Mas, se precisar de ajuda em alguma função em particular, consulte nossa biblioteca on-line com mais de 100 vídeos curtos muito úteis.",
+                                             "Text_tr" : "Twinmotion o kadar sezgisel ki sadece keşfederek bile öğreneceğiniz çok fazla şey olduğunu göreceksiniz. Ancak belirli bir işlev hakkında yardıma ihtiyacınız olursa 100'den fazla kısa ve faydalı video içeren çevrimiçi kitaplığımıza göz atın."
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "Type" : "Box",
+                                       "Orientation" : "Vertical",
+                                       "HAlign" : "Left",
+                                       "VAlign" : "Center",
+                                       "AutoSize" : "false",
+                                       "Children" : [
+                                          {
+                                             "Type" : "Overlay",
+                                             "Padding" : {
+                                                "Left" : 0,
+                                                "Top" : 0,
+                                                "Right" : 0,
+                                                "Bottom" : 0
+                                             },
+                                             "Children" : [
+                                                {
+                                                   "Type" : "Panel",
+                                                   "BackgroundImage" : "#DD2367",
+                                                   "MinWidth" : 260,
+                                                   "MinHeight" : 60,
+                                                   "Padding" : {
+                                                      "Left" : 0,
+                                                      "Top" : 0,
+                                                      "Right" : 0,
+                                                      "Bottom" : 0
+                                                   }
+                                                },
+                                                {
+                                                   "Type" : "Link",
+                                                   "HAlign" : "Center",
+                                                   "VAlign" : "Center",
+                                                   "Padding" : {
+                                                      "Left" : 10,
+                                                      "Top" : 0,
+                                                      "Right" : 0,
+                                                      "Bottom" : 0
+                                                   },
+                                                   "HoverIcon" : {
+                                                      "Image" : "ExternalLink.png"
+                                                   },
+                                                   "AutoSize" : "false",
+                                                   "Text" : {
+                                                      "Text" : "BROWSE THE VIDEOS",
+                                                      "Text_translate" : "true",
+                                                      "TextStyle" : "inverted-h5",
+                                                      "Margin" : {
+                                                         "Left" : 0,
+                                                         "Top" : 0,
+                                                         "Right" : 5,
+                                                         "Bottom" : 0
+                                                      },
+                                                      "Text_fr" : "PARCOURIR LES VIDÉOS",
+                                                      "Text_it" : "SFOGLIA I VIDEO",
+                                                      "Text_de" : "VIDEOS DURCHSTÖBERN",
+                                                      "Text_es" : "BUSCA VÍDEOS",
+                                                      "Text_es-MX" : "BUSCA VIDEOS",
+                                                      "Text_ru" : "СМОТРИТЕ ВИДЕО",
+                                                      "Text_pl" : "PRZEGLĄDAJ FILMY",
+                                                      "Text_ar" : "استعرض ملفات الفيديو",
+                                                      "Text_ko" : "비디오 찾아보기",
+                                                      "Text_ja" : "ビデオを見る",
+                                                      "Text_zh-CN" : "浏览视频",
+                                                      "Text_pt-BR" : "NAVEGUE PELOS VÍDEOS",
+                                                      "Text_tr" : "VİDEOLARA GÖZ AT"
+                                                   },
+                                                   "OnNavigateUrl" : "[poodle_learning]"
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Overlay",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 110,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Children" : [
+                        {
+                           "Type" : "BasicTile",
+                           "HasShadow" : "false",
+                           "HAlign" : "Fill",
+                           "VAlign" : "Fill",
+                           "Height" : 350,
+                           "LoadSilently" : "true",
+                           "Images" : [
+                              {
+                                 "Image" : "Poodle_Footer.png",
+                                 "HAlign" : "Right",
+                                 "VAlign" : "Bottom"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Box",
+                           "Orientation" : "Vertical",
+                           "HAlign" : "Fill",
+                           "VAlign" : "Fill",
+                           "AutoSize" : "false",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 60,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "Children" : [
+                              {
+                                 "Type" : "Panel",
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 10,
+                                    "Right" : 0,
+                                    "Bottom" : 5
+                                 },
+                                 "Text" : [
+                                    {
+                                       "Text_translate" : "true",
+                                       "Text" : "TWINMOTION PLUGINS",
+                                       "HAlign" : "Center",
+                                       "TextStyle" : "inverted-ExtraLarge-Title",
+                                       "Margin" : {
+                                          "Left" : 0,
+                                          "Top" : 0,
+                                          "Right" : 0,
+                                          "Bottom" : 0
+                                       },
+                                       "LineHeightScalar" : 1.2,
+                                       "Text_fr" : "EXTENSIONS TWINMOTION",
+                                       "Text_it" : "PLUG-IN DI TWINMOTION",
+                                       "Text_de" : "TWINMOTION PLUGINS",
+                                       "Text_es" : "EXTENSIONES DE TWINMOTION",
+                                       "Text_es-MX" : "PLUGINS DE TWINMOTION",
+                                       "Text_ru" : "ПОДКЛЮЧАЕМЫЕ МОДУЛИ TWINMOTION",
+                                       "Text_pl" : "WTYCZKI TWINMOTION",
+                                       "Text_ar" : "المكونات الإضافية لـ Twinmotion",
+                                       "Text_ko" : "TWINMOTION 플러그인",
+                                       "Text_ja" : "TWINMOTIONプラグイン",
+                                       "Text_zh-CN" : "Twinmotion插件",
+                                       "Text_pt-BR" : "PLUGINS TWINMOTION",
+                                       "Text_tr" : "TWINMOTION EKLENTİLERİ"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "Panel",
+                                 "AutoSize" : "true",
+                                 "VAlign" : "Top",
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "Text" : [
+                                    {
+                                       "Text_translate" : "true",
+                                       "Text" : "With Twinmotion, you can directly synchronize geometry and BIM information from your Graphisoft ARCHICAD or Autodesk Revit model in a single click. You’ll need to download and install the relevant plugin to get started.",
+                                       "TextStyle" : "inverted-h6",
+                                       "HAlign" : "Center",
+                                       "WrapAt" : 800,
+                                       "Justification" : "Center",
+                                       "AutoWrap" : "true",
+                                       "LineHeightScalar" : 1.2,
+                                       "Text_fr" : "Avec Twinmotion, vous pouvez synchroniser directement la géométrie et les informations BIM de votre modèle ARCHICAD Graphisoft ou Revit Autodesk d'un simple clic. Vous devez télécharger et installer l'extension nécessaire pour commencer.",
+                                       "Text_it" : "Con Twinmotion, puoi sincronizzare direttamente informazioni geometriche e BIM tramite il modello dei software grafici ARCHICAD o Autodesk Revit con un solo clic. Dovrai scaricare e installare il relativo plug-in per iniziare.",
+                                       "Text_de" : "Mit Twinmotion kannst du mit einem Klick Geometrie- und BIM-Daten deines Modells aus Graphisoft ARCHICAD oder Autodesk Revit synchronisieren. Dazu musst du nur das nötige Plugin herunterladen und installieren.",
+                                       "Text_es" : "Con Twinmotion podrás sincronizar directamente la geometría y la información BIM de tu modelo en ARCHICAD de Graphisoft o en Revit de Autodesk en un solo clic. Para comenzar, solo tienes que descargar e instalar la extensión pertinente.",
+                                       "Text_es-MX" : "Con Twinmotion puedes sincronizar geometría e información BIM directamente desde tu Graphisoft ARCHICAD o modelo Autodesk Revit en un solo clic. Tendrás que descargar e instalar el plugin necesario para empezar.",
+                                       "Text_ru" : "С помощью Twinmotion вы можете напрямую синхронизировать данные о геометрии и информационной модели объекта из Graphisoft ARCHICAD или Autodesk Revit всего одним нажатием. Для использования этой функции необходимо скачать и установить соответствующий подключаемый модуль.",
+                                       "Text_pl" : "Dzięki Twinmotion możesz za pomocą jednego kliknięcia zsynchronizować dane geometryczne i BIM z modelu stworzonego w oprogramowaniu ARCHICAD firmy Graphisoft lub Autodesk Revit. Aby rozpocząć, musisz zainstalować odpowiednią wtyczkę.",
+                                       "Text_ar" : "مع Twinmotion، يمكنك مزامنة معلومات الهندسة وBIM مباشرة من نموذج Graphisoft ARCHICAD أو Autodesk Revit بنقرة واحدة. ستحتاج إلى تنزيل وتثبيت المكون الإضافي ذي الصلة للبدء.",
+                                       "Text_ko" : "Twinmotion을 사용하면 클릭 한 번으로 Graphisoft ARCHICAD 또는 Autodesk Revit 모델의 지오메트리와 BIM 정보를 직접 동기화할 수 있습니다. 시작하려면 관련 플러그인을 다운로드하고 설치하세요.",
+                                       "Text_ja" : "Twinmotionがあれば、ワンクリックでGraphisoft ARCHICADやAutodesk RevitモデルからジオメトリやBIM情報を直接取り込むことができます。必要なのは必要なプラグインをダウンロード、インストールするだけ。すぐに始められます。",
+                                       "Text_zh-CN" : "借助Twinmotion，您只需单击一下，便可从直接从Graphisoft ARCHICAD或Autodesk Revit模型同步几何形状和BIM信息。您需要下载并安装相关插件才可以开始使用。",
+                                       "Text_pt-BR" : "Com Twinmotion, você pode sincronizar diretamente a geometria com informações BIM do seu Graphisoft ARCHICAD ou Autodesk Revit com apenas um clique. Você precisará baixar e instalar o plugin correspondente para começar.",
+                                       "Text_tr" : "Twinmotion ile geometri ve BIM bilgilerini doğrudan Graphisoft ARCHICAD veya Autodesk Revit modelinizden tek bir tıkla eşitleyebilirsiniz. Başlamak için ilgili eklentiyi indirip yüklemeniz gerekir."
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "Box",
+                                 "Orientation" : "Vertical",
+                                 "HAlign" : "Center",
+                                 "VAlign" : "Top",
+                                 "AutoSize" : "false",
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 30,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "Children" : [
+                                    {
+                                       "Type" : "Overlay",
+                                       "Padding" : {
+                                          "Left" : 0,
+                                          "Top" : 0,
+                                          "Right" : 0,
+                                          "Bottom" : 0
+                                       },
+                                       "Children" : [
+                                          {
+                                             "Type" : "Panel",
+                                             "BackgroundImage" : "#DD2367",
+                                             "MinWidth" : 260,
+                                             "MinHeight" : 60,
+                                             "Padding" : {
+                                                "Left" : 0,
+                                                "Top" : 0,
+                                                "Right" : 0,
+                                                "Bottom" : 0
+                                             }
+                                          },
+                                          {
+                                             "Type" : "Link",
+                                             "HAlign" : "Center",
+                                             "VAlign" : "Center",
+                                             "AutoSize" : "false",
+                                             "Text" : {
+                                                "Text" : "DOWNLOAD THE PLUGINS",
+                                                "Text_translate" : "true",
+                                                "TextStyle" : "inverted-h5",
+                                                "Margin" : {
+                                                   "Left" : 0,
+                                                   "Top" : 0,
+                                                   "Right" : 0,
+                                                   "Bottom" : 0
+                                                },
+                                                "Text_fr" : "TÉLÉCHARGER LES PLUG-INS",
+                                                "Text_it" : "SCARICA I PLUGIN",
+                                                "Text_de" : "PLUGINS HERUNTERLADEN",
+                                                "Text_es" : "DESCARGA COMPLEMENTOS",
+                                                "Text_es-MX" : "DESCARGA COMPLEMENTOS",
+                                                "Text_ru" : "УСТАНАВЛИВАЙТЕ ДОПОЛНЕНИЯ",
+                                                "Text_pl" : "ŚCIĄGNIJ WTYCZKI",
+                                                "Text_ar" : "قم بتنزيل الوظائف الإضافية",
+                                                "Text_ko" : "플러그인 다운로드",
+                                                "Text_ja" : "プラグインをダウンロード",
+                                                "Text_zh-CN" : "下载插件",
+                                                "Text_pt-BR" : "BAIXE OS PLUGINS",
+                                                "Text_tr" : "EKLENTİLERİ İNDİR"
+                                             },
+                                             "OnNavigateUrl" : "[poodle_plugins]"
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

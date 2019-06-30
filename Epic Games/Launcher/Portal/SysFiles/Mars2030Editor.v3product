@@ -1,0 +1,47 @@
+﻿{
+	"Id": "mars2030",
+	"Priority": 50,
+	"AnalyticsId": "mars2030",
+	"DisplayName": "Mars 2030",
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "mars2030",
+	"Categories": "Create",
+	"EulaExpression": "(mars2030 && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.54799, 0.00006, 0.00001",
+	"PressedPrimaryColor": "0.44787, 0.00006, 0.00001",
+	"HoveredPrimaryColor": "0.7372, 0.00011, 0.00002",
+	"Homepage": "/create/mars2030",
+	"Pages": [
+		{
+			"Id": "create.mars2030",
+			"PartialUrl": "/mars2030",
+			"SourceUrls" : [				
+				{
+					"SourceUrl": "ui_mars2030EditorV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},				
+				{
+					"SourceUrl": "ui_mars2030EditorCreateV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "mars2030Editor",
+			"GroupId": "Editor",
+			"OfferId": "fd7b726f8d81401ba83fda5226407a17",
+			"ItemId": "bb0084a063504ec6872a126b3d81184a",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

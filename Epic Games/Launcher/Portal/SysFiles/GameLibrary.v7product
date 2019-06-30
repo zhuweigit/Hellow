@@ -1,0 +1,31 @@
+﻿{
+	"Id": "GameLibrary",
+	"Priority": 0,
+	"AnalyticsId": "gl",
+	"DisplayName": "GameLibrary",
+	"PrimaryColor": "0xff0078f2",
+	"PressedPrimaryColor": "0xff0078f2",
+	"HoveredPrimaryColor": "0xff0066da",
+	"ShowInGameLibrary": false,
+	"Homepage": "/gamelibrary",
+	"Pages": [
+		{
+			"Id": "gamelibrary",
+			"PartialUrl": "/gamelibrary",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_GameLibrary.layout"
+				}
+			]
+		},
+		{
+			"Id": "gamelibrary.store",
+			"PartialUrl": "/store",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_Store.layout"
+				}
+			]
+		}
+	]
+}

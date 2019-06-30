@@ -1,0 +1,38 @@
+﻿{
+	"Id": "home",
+	"Priority": 0,
+	"AnalyticsId": "hp",
+	"DisplayName": "Home",
+	"PrimaryColor": "#0078f2ff",
+	"PressedPrimaryColor": "#0078f2ff",
+	"HoveredPrimaryColor": "#0066daff",
+	"ShowInGameLibrary": false,
+	"Homepage": "/store/{locale}/home",
+	"Pages": [
+		{
+			"Id": "app",
+			"PartialUrl": "/store/*",
+			"IsNativeRendered": true,
+			"BackgroundColor": "#00000000",
+			"SourceUrls": [
+				{
+					"SourceUrl": "{epicgamesnext}{path}"
+				}
+			]
+		},
+		{
+			"Id": "app-load-error",
+			"PartialUrl": "/store/*/load-error",
+			"SourceUrl": "LoadError.layout",
+			"IsTransient": true,
+			"ForceRefresh": true
+		}
+	],
+	"Redirects": [
+			"{epicgamesnext}*->{path}",
+			"{epicgames}*->{path}",
+			"/fortnite->/store/{locale}/product/fortnite/home",
+			"/ut->/store/{locale}/product/unreal-tournament/home",
+			"/viper->/store/{locale}/product/shadow-complex/home"
+	]
+}

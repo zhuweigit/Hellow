@@ -1,0 +1,48 @@
+﻿{
+	"Id": "bussim18",
+	"Priority": 35,
+	"AnalyticsId": "bussim18",
+	"DisplayName": "Bus Simulator 18",
+	"ShortDisplayName": "Bus",
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "bussim18",
+	"Categories": "Create",
+	"EulaExpression": "(bussim18 && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"LibraryImage": "ark.png",
+	"LibraryLogo": "arkLogo.png",
+	"PrimaryColor": "0.03288, 0.19046, 0.7519",
+	"PressedPrimaryColor": "0.02899, 0.16044, 0.62534",
+	"HoveredPrimaryColor": "0.03703, 0.21576, 0.85917",
+	"Homepage": "/bussim18",
+	"Pages": [
+		{
+			"Id": "bussim18",
+			"PartialUrl": "/bussim18",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_BusSim18EditorV2_Offline.layout",
+					"Conditions": [
+						"![BINDING_SOURCE]"
+					]
+				},
+				{
+					"SourceUrl": "ui_BusSim18EditorV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [],
+	"Apps": [
+		{
+			"Name": "BusSimulator18",
+			"GroupId": "Editor",
+			"OfferId": "b1b8c163a7f5444daf19260d2792ccdc",
+			"ItemId": "3c3a1798ca0a4a5b933d764c3e519f0e",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": []
+}

@@ -1,0 +1,76 @@
+﻿{
+   "Type" : "ScrollBox",
+   "RequiresBindingSource" : false,
+   "Orientation" : "Vertical",
+   "AutoSize" : "false",
+   "Children" : [
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "HAlign" : "Center",
+         "VAlign" : "Center",
+         "MaxWidth" : 750,
+         "AutoSize" : "false",
+         "Children" : [
+            {
+               "Type" : "BasicTile",
+               "VAlign" : "Bottom",
+               "MaxHeight" : 350,
+               "MinHeight" : 350,
+               "HasShadow" : "false",
+               "LoadSilently" : "true",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "AutoSize" : "true",
+               "Images" : [
+                  {
+                     "Image" : "ue_Logo.png",
+                     "Stretch" : "ScaleToFit"
+                  }
+               ]
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "Children" : [
+                  {
+                     "Type" : "Panel",
+                     "Padding" : {
+                        "Left" : 40,
+                        "Top" : 0,
+                        "Right" : 40,
+                        "Bottom" : 10
+                     },
+                     "Text" : [
+                        {
+                           "TextStyle" : "title",
+                           "Justification" : "Center",
+                           "AutoWrap" : true,
+                           "Text_translate" : "true",
+                           "Text" : "Unreal Engine 4 requires a 64 bit operating system. You'll need to update your system to install UE4.",
+                           "Text_fr" : "Unreal Engine 4 requiert un système d'exploitation 64 bits. Vous devez mettre votre système à jour pour installer UE4.",
+                           "Text_de" : "Für Unreal Engine 4 wird ein 64-Bit-Betriebssystem benötigt. Um UE4 installieren zu können, musst du dein System aufrüsten.",
+                           "Text_es" : "Unreal Engine 4 requiere un sistema operativo de 64 bits. Tendrás que actualizar tu sistema para instalar UE4.",
+                           "Text_es-MX" : "Unreal Engine 4 requiere un sistema operativo de 64 bit. Tendrás que actualizar tu sistema para instalar UE4.",
+                           "Text_ru" : "Для работы Unreal Engine 4 требуется 64-разрядная операционная система. Обновите операционную систему перед установкой.",
+                           "Text_ko" : "언리얼 엔진 4는 64비트 운영 체제가 필요합니다. UE4 설치를 위해서는 운영체제를 업데이트해야 합니다.",
+                           "Text_it" : "Unreal Engine 4 necessita di un sistema operativo a 64 bit. Devi aggiornare il tuo sistema per poter installare UE4.",
+                           "Text_pl" : "Unreal Engine 4 wymaga 64-bitowego systemu operacyjnego. Aby zainstalować UE4, należy zaktualizować system operacyjny.",
+                           "Text_ar" : "يتطلب إصدار Unreal Engine 4 نظام تشغيل بحجم 64 بت. وبالتالي ستحتاج إلى تحديث نظامك لتثبيت UE4.",
+                           "Text_ja" : "Unreal Engine 4 を使用するには、64 ビットの OS が必要です。UE4 をインストールにはシステムをアップデートする必要があります。",
+                           "Text_zh-CN" : "虚幻引擎4需要64位操作系统。您需要更新系统才能安装虚幻引擎4。",
+                           "Text_pt-BR" : "Unreal Engine 4 requer um sistema operacional de 64 bits. Você precisará atualizar o seu sistema para instalar o UE4.",
+                           "Text_tr" : "Unreal Engine 4, 64 bit işletim sistemi gerektirir. UE4’ü yüklemek için sistemini güncellemen gerekiyor."
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

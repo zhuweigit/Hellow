@@ -1,0 +1,47 @@
+{
+	"Id": "pixark",
+	"Priority": 55,
+	"AnalyticsId": "pixark",
+	"DisplayName": "PixARK",	
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "pixark",
+	"Categories": "Create",
+	"EulaExpression": "(pixark && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.54799, 0.00006, 0.00001",
+	"PressedPrimaryColor": "0.44787, 0.00006, 0.00001",
+	"HoveredPrimaryColor": "0.7372, 0.00011, 0.00002",
+	"Homepage": "/create/pixark",
+	"Pages": [
+		{
+			"Id": "create.pixark",
+			"PartialUrl": "/pixark",
+			"SourceUrls" : [
+				{
+					"SourceUrl": "ui_PixArkV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},		
+				{
+					"SourceUrl": "ui_PixArkV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "PixArk",
+			"GroupId": "Editor",
+			"OfferId": "1f218730f7ab425fa436404799fa224f",
+			"ItemId": "9490dd48752d408aad3108677c3b4158",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

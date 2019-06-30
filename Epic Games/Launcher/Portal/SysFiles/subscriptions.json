@@ -1,0 +1,57 @@
+﻿{
+   "subscriptions" : [
+      {
+         "id" : "ue_studio_beta",
+         "priority" : 10,
+         "name" : "Unreal Studio Beta",
+         "name_translate" : "true",
+         "eulaIds" : [
+            "ue_studio"
+         ],
+         "entitlements" : [
+            "UnrealEngine_Studio_Seat",
+            "UnrealEngine_Custom_Enterprise_Eval",
+            "UnrealEngine_Custom_Enterprise",
+            "UnrealEngine_Custom_Game"
+         ],
+         "name_fr" : "Unreal Studio Beta",
+         "name_it" : "Beta di Unreal Studio",
+         "name_de" : "Unreal Studio Beta",
+         "name_es" : "Beta de Unreal Studio",
+         "name_es-MX" : "Unreal Studio Beta",
+         "name_ru" : "Unreal Studio Beta",
+         "name_pl" : "Unreal Studio - wersja beta",
+         "name_ar" : "Unreal Studio Beta",
+         "name_ko" : "언리얼 스튜디오 베타",
+         "name_ja" : "Unreal Studioベータ版",
+         "name_zh-CN" : "Unreal Studio Beta",
+         "name_pt-BR" : "Unreal Studio Beta",
+         "name_tr" : "Unreal Studio Beta"
+      },
+      {
+         "id" : "datasmith_beta",
+         "priority" : 5,
+         "name" : "Unreal Datasmith Beta",
+         "name_translate" : "true",
+         "eulaIds" : [
+            
+         ],
+         "entitlements" : [
+            "Enterprise_Beta"
+         ],
+         "name_fr" : "Unreal Datasmith Beta",
+         "name_it" : "Beta di Unreal Datasmith",
+         "name_de" : "Unreal Datasmith Beta",
+         "name_es" : "Beta de Unreal Datasmith",
+         "name_es-MX" : "Unreal Datasmith Beta",
+         "name_ru" : "Unreal Datasmith Beta",
+         "name_pl" : "Unreal Datasmith - wersja beta",
+         "name_ar" : "Unreal Datasmith Beta",
+         "name_ko" : "언리얼 데이터스미스 베타",
+         "name_ja" : "Unreal Datasmithベータ版",
+         "name_zh-CN" : "Unreal Datasmith Beta",
+         "name_pt-BR" : "Unreal Datasmith Beta",
+         "name_tr" : "Unreal Datasmith Beta"
+      }
+   ]
+}

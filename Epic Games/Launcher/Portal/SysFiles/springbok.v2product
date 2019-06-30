@@ -1,0 +1,46 @@
+﻿{
+	"Id": "springbok",
+	"Priority": 32,
+	"AnalyticsId": "springbok",
+	"DisplayName": "Darksiders III",
+	"CatalogNamespace": "springbok",
+	"EulaExpression": "(egstore)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_11_0"
+		}
+	},
+	"Homepage": "/springbok",
+	"Pages": [
+		{
+			"Id": "springbok",
+			"PartialUrl": "/springbok",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_springbokOffline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ]
+				},
+				{
+					"SourceUrl": "ui_springbok.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [],
+	"Apps": [
+		{
+			"Name": "Springbok",
+			"GroupId": "Game",
+			"OfferId": "95e743aa01c6410680916acb796246b5",
+			"ItemId": "a6be8319b92a4f858daecff44b38e426",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": []
+}

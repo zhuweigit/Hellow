@@ -1,0 +1,46 @@
+﻿{
+	"Id": "jaguar",
+	"Priority": 32,
+	"AnalyticsId": "jaguar",
+	"DisplayName": "Subnautica",
+	"CatalogNamespace": "jaguar",
+	"EulaExpression": "(egstore)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_11_0"
+		}
+	},
+	"Homepage": "/jaguar",
+	"Pages": [
+		{
+			"Id": "jaguar",
+			"PartialUrl": "/jaguar",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_jaguarOffline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ]
+				},
+				{
+					"SourceUrl": "ui_jaguar.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [],
+	"Apps": [
+		{
+			"Name": "Jaguar",
+			"GroupId": "Game",
+			"OfferId": "9ac2b841932448aeb5fc370907c8c0b3",
+			"ItemId": "3257e06c28764231acd93049f3774ed6",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": []
+}

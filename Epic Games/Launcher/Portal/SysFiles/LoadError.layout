@@ -1,0 +1,192 @@
+﻿{
+   "Type" : "ScrollBox",
+   "RequiresBindingSource" : false,
+   "Orientation" : "Vertical",
+   "AutoSize" : "false",
+   "VAlign" : "Center",
+   "Children" : [
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "HAlign" : "Center",
+         "VAlign" : "Center",
+         "AutoSize" : "false",
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Padding" : {
+                  "Left" : 40,
+                  "Top" : 0,
+                  "Right" : 40,
+                  "Bottom" : 40
+               },
+               "Text" : [
+                  {
+                     "TextStyle" : "Colored-extralarge-h5",
+                     "Justification" : "Center",
+                     "AutoWrap" : true,
+                     "Text_translate" : "true",
+                     "Text" : "You seem to be experiencing some network connectivity issues",
+                     "Text_fr" : "Il semble que vous ayez des problèmes de connexion réseau.",
+                     "Text_it" : "A quanto pare stai riscontrando qualche problema di connessione alla rete",
+                     "Text_de" : "Es gibt scheinbar Probleme mit deiner Internetverbindung.",
+                     "Text_es" : "Parece que estás experimentando algunos problemas de conectividad de red.",
+                     "Text_es-MX" : "Parece que estás experimentando algunos problemas de conexión.",
+                     "Text_ru" : "Похоже, возникли проблемы с сетевым подключением.",
+                     "Text_pl" : "Zdaje się, że masz problemy z połączeniem sieciowym.",
+                     "Text_ar" : "يبدو أنك تواجه بعض المشاكل في الاتصال بالشبكة.",
+                     "Text_ko" : "네트워크 연결 문제가 있는 것 같습니다.",
+                     "Text_ja" : "ネットワーク接続の問題があるようです",
+                     "Text_zh-CN" : "您似乎遇到了网络连接问题",
+                     "Text_pt-BR" : "Parece que você está tendo alguns problemas de conectividade de rede",
+                     "Text_tr" : "İnternet bağlantında bir sorun var gibi görünüyor."
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "MaxWidth" : 900,
+               "Padding" : {
+                  "Left" : 40,
+                  "Top" : 0,
+                  "Right" : 40,
+                  "Bottom" : 40
+               },
+               "Text" : [
+                  {
+                     "TextStyle" : "inverted-small-h5",
+                     "Justification" : "Center",
+                     "AutoWrap" : true,
+                     "Text_translate" : "true",
+                     "Text" : "The Epic Games Launcher relies on an active internet connection to make the full range of Epic Services available. Please check your internet connection, retry, or go to Unreal Engine.",
+                     "Text_fr" : "Le lanceur d'Epic Games nécessite une connexion Internet active pour que l'intégralité des services Epic soient disponibles. Veuillez vérifier votre connexion Internet, réessayez ou allez à Unreal Engine.",
+                     "Text_it" : "Il launcher Epic Games fa affidamento su una connessione Internet attiva per rendere disponibile l'intera gamma dei servizi Epic. Verifica la tua connessione a Internet, riprova o naviga verso l'Unreal Engine.",
+                     "Text_de" : "Der Epic Games Launcher muss mit dem Internet verbunden sein, damit du alle von Epic zur Verfügung gestellten Dienste nutzen kannst. Überprüfe deine Internetverbindung, versuche es erneut oder öffne die Unreal Engine.",
+                     "Text_es" : "La plataforma de Epic Games requiere una conexión a internet activa para que toda la amplia gama de servicios de Epic esté disponible. Comprueba la conexión a internet e inténtalo de nuevo o ve a Unreal Engine.",
+                     "Text_es-MX" : "El iniciador de Epic Games depende de una conexión a Internet activa para que todos los servicios de Epic estén disponibles. Revisa tu conexión a Internet, vuelve a intentarlo o dirígete a Unreal Engine.",
+                     "Text_ru" : "Программе запуска Epic Games требуется активное соединение с интернетом для подключения к полному списку всех служб Epic. Проверьте состояние соединения с интернетом, повторите попытку позже или зайдите на сайт Unreal Engine.",
+                     "Text_pl" : "Dostęp do wszystkich usług programu startowego Epic jak i samo jego działanie wymaga aktywnego połączenia internetowego. Sprawdź swoje połączenie, spróbuj ponownie lub przejdź do Unreal Engine.",
+                     "Text_ar" : "يحتاج برنامج تشغيل Epic Games اتصالاً نشطًا بالإنترنت لإتاحة كافة خدمات Epic. يُرجى التحقق من اتصالك بالإنترنت أو إعادة المحاولة أو الانتقال إلى Unreal Engine.",
+                     "Text_ko" : "에픽게임즈 런처는 인터넷에 연결되어 있어야 에픽의 모든 서비스를 제공해 드릴 수 있습니다. 인터넷 연결을 확인하거나, 재시도하거나, 언리얼 엔진으로 이동하세요.",
+                     "Text_ja" : "Epic Games Launcherは有効なインターネット接続を利用して、Epicのあらゆるサービスを提供しています。インターネット接続をご確認の上、もう一度お試しいただくか、Unreal Engineにアクセスしてください。",
+                     "Text_zh-CN" : "Epic Games启动器依靠有效网络链接建立完整Epic服务器。请检查你的网络链接，或前往虚幻引擎。",
+                     "Text_pt-BR" : "O Inicializador da Epic Games depende de uma conexão ativa com a internet para deixar toda a gama de Serviços Epic disponíveis. Verifique sua conexão de internet, tente novamente ou acesse o Unreal Engine.",
+                     "Text_tr" : "Epic Games başlatıcısının tüm Epic Hizmetlerini sunabilmesi için aktif bir internet bağlantın olmalı. Lütfen internet bağlantını kontrol et, tekrar dene ya da Unreal Engine’e git."
+                  }
+               ]
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Horizontal",
+               "HAlign" : "Fill",
+               "VAlign" : "Center",
+               "AutoSize" : "true",
+               "Padding" : {
+                  "Left" : 100,
+                  "Top" : 0,
+                  "Right" : 100,
+                  "Bottom" : 0
+               },
+               "Children" : [
+                  {
+                     "Type" : "Button",
+                     "ButtonStyle" : "Button",
+                     "AutoSize" : "false",
+                     "OnNavigateUrl" : "refresh",
+                     "Padding" : {
+                        "Left" : 20,
+                        "Top" : 0,
+                        "Right" : 20,
+                        "Bottom" : 0
+                     },
+                     "ContentPadding" : {
+                        "Left" : 20,
+                        "Top" : 16,
+                        "Right" : 20,
+                        "Bottom" : 16
+                     },
+                     "Child" : {
+                        "Type" : "Panel",
+                        "Padding" : {
+                           "Top" : 0,
+                           "Right" : 0,
+                           "Bottom" : 0
+                        },
+                        "Text" : [
+                           {
+                              "TextStyle" : "inverted-ExtraSmall-h5",
+                              "Justification" : "Center",
+                              "AutoWrap" : false,
+                              "Text_translate" : "true",
+                              "Text" : "RETRY",
+                              "Text_fr" : "RÉESSAYER",
+                              "Text_it" : "RIPROVA",
+                              "Text_de" : "NEUER VERSUCH",
+                              "Text_es" : "REINTENTAR",
+                              "Text_es-MX" : "REINTENTAR",
+                              "Text_ru" : "ПОВТОРИТЬ",
+                              "Text_pl" : "PONÓW PRÓBĘ",
+                              "Text_ar" : "إعادة المحاولة",
+                              "Text_ko" : "재시도",
+                              "Text_ja" : "リトライ",
+                              "Text_zh-CN" : "重试",
+                              "Text_pt-BR" : "TENTAR NOVAMENTE",
+                              "Text_tr" : "YENİDEN DENE"
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "Type" : "Button",
+                     "AutoSize" : "false",
+                     "ButtonStyle" : "SecondaryButton",
+                     "OnNavigateUrl" : "/ue/library",
+                     "Padding" : {
+                        "Left" : 20,
+                        "Top" : 0,
+                        "Right" : 20,
+                        "Bottom" : 0
+                     },
+                     "ContentPadding" : {
+                        "Left" : 20,
+                        "Top" : 16,
+                        "Right" : 20,
+                        "Bottom" : 16
+                     },
+                     "Child" : {
+                        "Type" : "Panel",
+                        "Padding" : {
+                           "Top" : 0,
+                           "Right" : 0,
+                           "Bottom" : 0
+                        },
+                        "Text" : [
+                           {
+                              "TextStyle" : "inverted-ExtraSmall-h5",
+                              "Justification" : "Center",
+                              "AutoWrap" : false,
+                              "Text_translate" : "true",
+                              "Text" : "UNREAL ENGINE",
+                              "Text_fr" : "UNREAL ENGINE",
+                              "Text_it" : "UNREAL ENGINE",
+                              "Text_de" : "UNREAL ENGINE",
+                              "Text_es" : "UNREAL ENGINE",
+                              "Text_es-MX" : "UNREAL ENGINE",
+                              "Text_ru" : "ДВИЖОК UNREAL ENGINE",
+                              "Text_pl" : "UNREAL ENGINE",
+                              "Text_ar" : "UNREAL ENGINE",
+                              "Text_ko" : "언리얼 엔진",
+                              "Text_ja" : "UNREAL ENGINE",
+                              "Text_zh-CN" : "虚幻引擎",
+                              "Text_pt-BR" : "UNREAL ENGINE",
+                              "Text_tr" : "UNREAL ENGINE"
+                           }
+                        ]
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
